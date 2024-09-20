@@ -1,19 +1,23 @@
-import { useEffect, useState } from 'react';
 import type { Schema } from '../amplify/data/resource';
 import { generateClient } from 'aws-amplify/data';
+import PlayerTable from './components/PlayerTable';
+import LevelTable from './components/LevelTable';
 
 const client = generateClient<Schema>();
 
 function App() {
-  const [players, setPlayers] = useState<Array<Schema['Player']['type']>>([]);
-
+  /*
   useEffect(() => {
     client.models.Player.observeQuery().subscribe({
       next: (data) => setPlayers([...data.items]),
     });
+    client.models.Level.observeQuery().subscribe({
+      next: (data) => setLevels([...data.items]),
+    });
+    loadPlayer();
   }, []);
 
-  /*
+ 
   function createTodo() {
     client.models.Todo.create({
       content: window.prompt('Todo content'),
@@ -25,16 +29,13 @@ function App() {
     client.models.Todo.delete({ id });
   }
 */
-  console.log(players);
 
   return (
     <main>
-      <h1>My players</h1>
-      <ul>
-        {players.map((player) => (
-          <li key={player.id}>{player.name}</li>
-        ))}
-      </ul>
+      <h1>NOW HERES DA SCORES</h1>
+      <PlayerTable client={client} />
+      <h1>HERES DA THANG</h1>
+      <LevelTable client={client} />
     </main>
   );
 }
