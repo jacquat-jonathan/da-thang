@@ -62,12 +62,17 @@ const PlayerTable: React.FC<PlayerTableProps> = ({ client }) => {
           } as IPlayer;
         }
       );
-      setPlayers(playersArray);
+      const playersArraySorted = sortArrayByXp(playersArray);
+      setPlayers(playersArraySorted);
       setLoading(false);
     } catch (error) {
       console.log('Erreur lors du chargment des joueurs', error);
       return [];
     }
+  };
+
+  const sortArrayByXp = (arr: Array<IPlayer>) => {
+    return arr.sort((a: IPlayer, b: IPlayer) => b.xp - a.xp);
   };
 
   const loadPlayerLevel = async (players: Array<Player>) => {
