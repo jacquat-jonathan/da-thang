@@ -48,7 +48,7 @@ const PlayerTable: React.FC<PlayerTableProps> = ({ client }) => {
 
   const loadPlayers = async () => {
     try {
-      const { data: list } = await client.models.Player.listPlayerByName();
+      const { data: list } = await client.models.Player.list();
       const levels: number[] = await loadPlayerLevel(list);
       const playersArray: Array<IPlayer> = list.map(
         (player: Schema['Player']['type'], index: number) => {
