@@ -4,7 +4,7 @@ import PlayerTable from './components/PlayerTable';
 import LevelTable from './components/LevelTable';
 import Grid from '@mui/material/Grid2';
 import { Box } from '@mui/material';
-import './app.css';
+import './App.css';
 import QuestTable from './components/QuestTable';
 
 const client = generateClient<Schema>();
