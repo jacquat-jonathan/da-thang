@@ -17,7 +17,6 @@ type PlayerTableProps = {
 type Player = Schema['Player']['type'];
 
 interface IPlayer {
-  id: string;
   name: string;
   username: string;
   xp: number;
@@ -53,7 +52,6 @@ const PlayerTable: React.FC<PlayerTableProps> = ({ client }) => {
       const playersArray: Array<IPlayer> = list.map(
         (player: Schema['Player']['type'], index: number) => {
           return {
-            id: player.id,
             name: player.name,
             username: player.username,
             xp: player.xp,
@@ -114,7 +112,7 @@ const PlayerTable: React.FC<PlayerTableProps> = ({ client }) => {
         <TableBody>
           {players.map((player: IPlayer) => (
             <StyledTableRow
-              key={player.id}
+              key={player.username}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
               <TableCell>{player.name}</TableCell>

@@ -15,6 +15,7 @@ const schema = a
         quests: a.hasMany('PlayerQuest', 'playerId'),
         logs: a.hasMany('Logs', 'playerId'),
       })
+      .identifier(['username'])
       .secondaryIndexes((index) => [index('name')]),
     Level: a
       .model({
@@ -24,6 +25,7 @@ const schema = a
         players: a.hasMany('Player', 'levelId'),
         advantage: a.hasOne('Advantage', 'levelId'),
       })
+      .identifier(['level'])
       .secondaryIndexes((index) => [index('level')]),
     Advantage: a.model({
       description: a.string().required(),

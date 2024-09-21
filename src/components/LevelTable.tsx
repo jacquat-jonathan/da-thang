@@ -48,7 +48,7 @@ const LevelTable: React.FC<LevelTableProps> = ({ client }) => {
         </TableHead>
         <TableBody>
           {levels.map((level) => (
-            <TableRow key={level.id}>
+            <TableRow key={level.level}>
               <TableCell>{level.level}</TableCell>
               <TableCell>{level.maxXp}</TableCell>
               <TableCell>{level.advantage().toString()}</TableCell>
