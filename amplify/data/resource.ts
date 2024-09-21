@@ -49,10 +49,10 @@ const schema = a
     }),
     Quest: a
       .model({
-        description: a.string().required(),
-        xp: a.integer().required().default(0),
-        karma: a.integer().required().default(0),
-        isEditable: a.boolean().required().default(false),
+        description: a.string(),
+        xp: a.integer().default(0),
+        karma: a.integer().default(0),
+        isEditable: a.boolean().default(false),
         players: a.hasMany('PlayerQuest', 'questId'),
       })
       .secondaryIndexes((index) => [index('xp').sortKeys(['description'])]),
