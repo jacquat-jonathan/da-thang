@@ -21,7 +21,9 @@ const LevelTable: React.FC<LevelTableProps> = ({ client }) => {
   const loadLevels = async () => {
     try {
       const { data: levelList } = await client.models.Level.list();
-      setLevels(levelList.sort((a: any, b: any) => a.level - b.level));
+      setLevels(
+        levelList.sort((a: any, b: any) => a.level - b.level).slice(0, 15)
+      );
       setLoading(false);
     } catch (error) {
       console.log('Erreur lors du chargement des niveaux', error);
