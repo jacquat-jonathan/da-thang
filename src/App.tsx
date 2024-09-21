@@ -4,6 +4,8 @@ import PlayerTable from './components/PlayerTable';
 import LevelTable from './components/LevelTable';
 import Grid from '@mui/material/Grid2';
 import { Box } from '@mui/material';
+import './app.css';
+import QuestTable from './components/QuestTable';
 
 const client = generateClient<Schema>();
 
@@ -43,6 +45,10 @@ function App() {
           <Grid size={5}>
             <h1>HERES DA THANG</h1>
             <LevelTable client={client} />
+          </Grid>
+          <Grid spacing={7}>
+            <h1>Table des quêtes</h1>
+            <QuestTable client={client} />
           </Grid>
         </Grid>
       </Box>

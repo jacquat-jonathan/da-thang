@@ -53,7 +53,6 @@ const schema = a
         xp: a.integer().required().default(0),
         karma: a.integer().required().default(0),
         isEditable: a.boolean().required().default(false),
-        players: a.hasMany('PlayerQuest', 'questId'),
       })
       .secondaryIndexes((index) => [index('xp').sortKeys(['description'])]),
     PlayerQuest: a.model({
