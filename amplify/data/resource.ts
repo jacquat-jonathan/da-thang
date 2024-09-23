@@ -19,8 +19,8 @@ const schema = a
     Level: a
       .model({
         level: a.integer().required(),
-        requiredXp: a.integer(),
-        xpToNextLevel: a.integer(),
+        requiredXp: a.integer().required(),
+        xpToNextLevel: a.integer().required(),
         players: a.hasMany('Player', 'levelId'),
         advantage: a.hasOne('Advantage', 'levelId'),
       })
@@ -49,10 +49,10 @@ const schema = a
     }),
     Quest: a
       .model({
-        description: a.string(),
-        xp: a.integer().default(0),
-        karma: a.integer().default(0),
-        isEditable: a.boolean().default(false),
+        description: a.string().required(),
+        xp: a.integer().default(0).required(),
+        karma: a.integer().default(0).required(),
+        isEditable: a.boolean().default(false).required(),
         players: a.hasMany('PlayerQuest', 'questId'),
       })
       .secondaryIndexes((index) => [index('xp').sortKeys(['description'])]),

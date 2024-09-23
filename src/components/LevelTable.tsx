@@ -23,6 +23,7 @@ interface ILevel {
 }
 
 type Level = Schema['Level']['type'];
+type Advantage = Schema['Advantage']['type'];
 
 const LevelTable: React.FC<LevelTableProps> = ({ client }) => {
   const [levels, setLevels] = useState<Array<ILevel>>([]);
@@ -31,42 +32,37 @@ const LevelTable: React.FC<LevelTableProps> = ({ client }) => {
   const loadLevels = async () => {
     try {
       const { data: list } = await client.models.Level.list();
-      const advantages: Array<string> = await loadLevelAdvantage(list);
-      const levelsWithAdvantages: Array<ILevel> = list.map(
-        (level: Level, index: number) => {
-          return {
-            id: level.id,
-            level: level.level,
-            requiredXp: level.requiredXp,
-            xpToNextLevel: level.xpToNextLevel,
-            advantage: advantages[index],
-          } as ILevel;
-        }
-      );
-      setLevels(sliceArray(sortArrayByLevel(levelsWithAdvantages), 0, 7));
+      const advantages: Array<Advantage> = await loadAdvantages();
+      const levelsWithAdvantages: Array<ILevel> = list.map((level: Level) => {
+        const advantage = advantages.find((adv) => adv.levelId === level.id);
+        return {
+          id: level.id,
+          level: level.level,
+          requiredXp: level.requiredXp,
+          xpToNextLevel: level.xpToNextLevel,
+          advantage: advantage ? advantage.description : '',
+        } as ILevel;
+      });
+      setLevels(sliceArray(sortArrayByLevel(levelsWithAdvantages), 1, 11));
       setLoading(false);
     } catch (error) {
       console.log('Erreur lors du chargement des niveaux', error);
     }
   };
 
-  const loadLevelAdvantage = async (levels: Array<Level>) => {
-    const advantages: Array<string> = [];
-    for (const level of levels) {
-      try {
-        const { data: advantage } = await level.advantage();
-        if (advantage) {
-          console.log('find one');
-          advantages.push(advantage.description);
-        } else {
-          console.log('not find');
-          advantages.push('');
-        }
-      } catch (error) {
-        console.log("erreur lors du chargement de l'avantage", error);
+  const loadAdvantages = async () => {
+    try {
+      const { data: list } = await client.models.Advantage.list();
+      if (list) {
+        return list;
+      } else {
+        console.log('Aucun avantage trouvé');
+        return [];
       }
+    } catch (error) {
+      console.log('Erreur lors du chargement des avantages', error);
+      return [];
     }
-    return advantages;
   };
 
   const sortArrayByLevel = (arr: Array<ILevel>) => {
@@ -77,6 +73,7 @@ const LevelTable: React.FC<LevelTableProps> = ({ client }) => {
     return arr.slice(min, max);
   };
 
+  // This load levels every refresh, should load once then update if there's updates -> useMemo can be use
   useEffect(() => {
     loadLevels();
   }, []);
