@@ -33,6 +33,36 @@ function App() {
     client.models.Todo.delete({ id });
   }
 */
+  /* Create default levels with xp, next xp
+  const setLevels = async () => {
+    const lvls: { xp: number; next: number }[] = calcXp();
+    for (let i = 0; i < 100; i++) {
+      const lvl = lvls[i];
+      const level = i + 1;
+      await client.models.Level.create({
+        level: level,
+        requiredXp: lvl.xp,
+        xpToNextLevel: lvl.next,
+      });
+      console.log('Level ', level, ' created !');
+    }
+  };
+
+  const calcXp = () => {
+    const lvls = [];
+
+    let xp = 10; // Default xp required for lvl 1
+    let next = 25; // Default xp to next lvl for lvl 1
+    const base = 15;
+    const step = 5;
+
+    for (let i = 1; i <= 100; i++) {
+      lvls.push({ xp, next });
+      xp = xp + next;
+      next = next + base + i * step;
+    }
+    return lvls;
+  };*/
 
   return (
     <main>
@@ -46,8 +76,7 @@ function App() {
             <h1>HERES DA THANG</h1>
             <LevelTable client={client} />
           </Grid>
-          <Grid spacing={7}>
-            <h1>Table des quêtes</h1>
+          <Grid spacing={12} sx={{ width: '100%' }}>
             <QuestTable client={client} />
           </Grid>
         </Grid>

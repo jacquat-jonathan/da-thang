@@ -1,12 +1,14 @@
 import { useEffect, useState } from 'react';
 import type { Schema } from '../../amplify/data/resource';
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Paper,
+} from '@mui/material';
 
 type LevelTableProps = {
   client: any;
@@ -53,6 +55,7 @@ const LevelTable: React.FC<LevelTableProps> = ({ client }) => {
           <TableRow>
             <TableCell>Level</TableCell>
             <TableCell>XP requis</TableCell>
+            <TableCell>XP to next level</TableCell>
             <TableCell>Avantage</TableCell>
           </TableRow>
         </TableHead>
@@ -61,6 +64,7 @@ const LevelTable: React.FC<LevelTableProps> = ({ client }) => {
             <TableRow key={level.id}>
               <TableCell>{level.level}</TableCell>
               <TableCell>{level.requiredXp}</TableCell>
+              <TableCell>{level.xpToNextLevel}</TableCell>
               <TableCell>{level.advantage().toString()}</TableCell>
             </TableRow>
           ))}

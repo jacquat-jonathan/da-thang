@@ -1,14 +1,16 @@
 import { useEffect, useState } from 'react';
 import type { Schema } from '../../amplify/data/resource';
-import { styled } from '@mui/material/styles';
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell, { tableCellClasses } from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
-// import { V6Client } from '@aws-amplify/api-graphql';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Paper,
+  tableCellClasses,
+  styled,
+} from '@mui/material';
 
 type PlayerTableProps = {
   client: any;
@@ -51,7 +53,7 @@ const PlayerTable: React.FC<PlayerTableProps> = ({ client }) => {
       const { data: list } = await client.models.Player.list();
       const levels: number[] = await loadPlayerLevel(list);
       const playersArray: Array<IPlayer> = list.map(
-        (player: Schema['Player']['type'], index: number) => {
+        (player: Player, index: number) => {
           return {
             id: player.id,
             name: player.name,
