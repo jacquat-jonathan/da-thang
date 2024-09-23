@@ -165,13 +165,20 @@ const QuestTable: React.FC<QuestTableProps> = ({ client }) => {
     event: React.MouseEvent<unknown>,
     property: keyof IQuest
   ) => {
+    handleEventBuildFail(event);
     const isAsc = orderBy === property && order === 'asc';
     setOrder(isAsc ? 'desc' : 'asc');
     setOrderBy(property);
   };
 
   const handleChangePage = (event: unknown, newPage: number) => {
+    handleEventBuildFail(event);
     setPage(newPage);
+  };
+
+  const handleEventBuildFail = (event: unknown) => {
+    if (event) {
+    }
   };
 
   const handleChangeRowsPerPage = (
