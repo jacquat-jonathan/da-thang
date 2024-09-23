@@ -19,8 +19,8 @@ const schema = a
     Level: a
       .model({
         level: a.integer().required(),
-        minXp: a.integer(),
-        maxXp: a.integer(),
+        requiredXp: a.integer(),
+        xpToNextLevel: a.integer(),
         players: a.hasMany('Player', 'levelId'),
         advantage: a.hasOne('Advantage', 'levelId'),
       })
