@@ -68,11 +68,11 @@ function App() {
     <main>
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
-          <Grid size={7}>
+          <Grid size={6}>
             <h1>NOW HERES DA SCORES</h1>
             <PlayerTable client={client} />
           </Grid>
-          <Grid size={5}>
+          <Grid size={6}>
             <h1>HERES DA THANG</h1>
             <LevelTable client={client} />
           </Grid>

@@ -14,29 +14,66 @@ type LevelTableProps = {
   client: any;
 };
 
+interface ILevel {
+  id: string;
+  level: number;
+  requiredXp: number;
+  xpToNextLevel: number;
+  advantage: string;
+}
+
 type Level = Schema['Level']['type'];
 
 const LevelTable: React.FC<LevelTableProps> = ({ client }) => {
-  const [levels, setLevels] = useState<Array<Level>>([]);
+  const [levels, setLevels] = useState<Array<ILevel>>([]);
   const [loading, setLoading] = useState(true);
 
   const loadLevels = async () => {
     try {
-      const { data: levelList } = await client.models.Level.list();
-      let levelArr = sortArrayByLevel(levelList);
-      levelArr = sliceArray(levelArr, 0, 7);
-      setLevels(levelArr);
+      const { data: list } = await client.models.Level.list();
+      const advantages: Array<string> = await loadLevelAdvantage(list);
+      const levelsWithAdvantages: Array<ILevel> = list.map(
+        (level: Level, index: number) => {
+          return {
+            id: level.id,
+            level: level.level,
+            requiredXp: level.requiredXp,
+            xpToNextLevel: level.xpToNextLevel,
+            advantage: advantages[index],
+          } as ILevel;
+        }
+      );
+      setLevels(sliceArray(sortArrayByLevel(levelsWithAdvantages), 0, 7));
       setLoading(false);
     } catch (error) {
       console.log('Erreur lors du chargement des niveaux', error);
     }
   };
 
-  const sortArrayByLevel = (arr: Array<Level>) => {
-    return arr.sort((a: Level, b: Level) => a.level - b.level);
+  const loadLevelAdvantage = async (levels: Array<Level>) => {
+    const advantages: Array<string> = [];
+    for (const level of levels) {
+      try {
+        const { data: advantage } = await level.advantage();
+        if (advantage) {
+          console.log('find one');
+          advantages.push(advantage.description);
+        } else {
+          console.log('not find');
+          advantages.push('');
+        }
+      } catch (error) {
+        console.log("erreur lors du chargement de l'avantage", error);
+      }
+    }
+    return advantages;
   };
 
-  const sliceArray = (arr: Array<Level>, min: number, max: number) => {
+  const sortArrayByLevel = (arr: Array<ILevel>) => {
+    return arr.sort((a: ILevel, b: ILevel) => a.level - b.level);
+  };
+
+  const sliceArray = (arr: Array<ILevel>, min: number, max: number) => {
     return arr.slice(min, max);
   };
 
@@ -50,7 +87,7 @@ const LevelTable: React.FC<LevelTableProps> = ({ client }) => {
 
   return (
     <TableContainer component={Paper}>
-      <Table>
+      <Table size="small">
         <TableHead>
           <TableRow>
             <TableCell>Level</TableCell>
@@ -65,7 +102,7 @@ const LevelTable: React.FC<LevelTableProps> = ({ client }) => {
               <TableCell>{level.level}</TableCell>
               <TableCell>{level.requiredXp}</TableCell>
               <TableCell>{level.xpToNextLevel}</TableCell>
-              <TableCell>{level.advantage().toString()}</TableCell>
+              <TableCell>{level.advantage}</TableCell>
             </TableRow>
           ))}
         </TableBody>
