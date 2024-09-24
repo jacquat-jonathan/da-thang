@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import type { Schema } from '../../amplify/data/resource';
+// import type { Schema } from '../../amplify/data/resource';
 import {
   Table,
   TableBody,
@@ -9,9 +9,11 @@ import {
   TableRow,
   Paper,
 } from '@mui/material';
+import { Advantage, Level } from '../../utils/types';
 
 type LevelTableProps = {
-  client: any;
+  levels: Array<Level>;
+  advantages: Array<Advantage>;
 };
 
 interface ILevel {
@@ -22,18 +24,21 @@ interface ILevel {
   advantage: string;
 }
 
-type Level = Schema['Level']['type'];
-type Advantage = Schema['Advantage']['type'];
+// type DBLevel = Schema['Level']['type'];
+// type DBAdvantage = Schema['Advantage']['type'];
 
-const LevelTable: React.FC<LevelTableProps> = ({ client }) => {
+const LevelTable: React.FC<LevelTableProps> = ({
+  levels: lvls,
+  advantages,
+}) => {
   const [levels, setLevels] = useState<Array<ILevel>>([]);
   const [loading, setLoading] = useState(true);
 
   const loadLevels = async () => {
     try {
-      const { data: list } = await client.models.Level.list();
-      const advantages: Array<Advantage> = await loadAdvantages();
-      const levelsWithAdvantages: Array<ILevel> = list.map((level: Level) => {
+      //const { data: list } = await client.models.Level.list();
+      //const advantages: Array<Advantage> = await loadAdvantages();
+      const levelsWithAdvantages: Array<ILevel> = lvls.map((level: Level) => {
         const advantage = advantages.find((adv) => adv.levelId === level.id);
         return {
           id: level.id,
@@ -50,7 +55,7 @@ const LevelTable: React.FC<LevelTableProps> = ({ client }) => {
     }
   };
 
-  const loadAdvantages = async () => {
+  /*const loadAdvantages = async () => {
     try {
       const { data: list } = await client.models.Advantage.list();
       if (list) {
@@ -63,7 +68,7 @@ const LevelTable: React.FC<LevelTableProps> = ({ client }) => {
       console.log('Erreur lors du chargement des avantages', error);
       return [];
     }
-  };
+  };*/
 
   const sortArrayByLevel = (arr: Array<ILevel>) => {
     return arr.sort((a: ILevel, b: ILevel) => a.level - b.level);

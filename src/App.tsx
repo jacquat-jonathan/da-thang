@@ -1,13 +1,15 @@
-import type { Schema } from '../amplify/data/resource';
-import { generateClient } from 'aws-amplify/data';
+// import type { Schema } from '../amplify/data/resource';
+// import { generateClient } from 'aws-amplify/data';
 import { Grid2, Box } from '@mui/material';
-import QuestTable from './components/QuestTable';
-import PlayerTable from './components/PlayerTable';
-import LevelTable from './components/LevelTable';
+import QuestTable from './components/quests/QuestTable';
+import PlayerTable from './components/players/PlayerTable';
+import LevelTable from './components/levels/LevelTable';
 import PermanentDrawerLeft from './components/drawer/PermanentDrawerLeft';
 import './App.css';
+import readJson from './utils/readJson';
+import { Level, Player, Quest, Advantage, Data } from './utils/types';
 
-const client = generateClient<Schema>();
+// const client = generateClient<Schema>();
 
 function App() {
   /*
@@ -64,6 +66,11 @@ function App() {
     return lvls;
   };*/
 
+  const data: Data = readJson();
+  const players: Array<Player> = data.players;
+  const advantages: Array<Advantage> = data.advantages;
+  const levels: Array<Level> = data.levels;
+  const quests: Array<Quest> = data.quests;
   return (
     <main>
       <Box sx={{ display: 'flex' }}>
@@ -72,14 +79,14 @@ function App() {
           <Grid2 container spacing={2}>
             <Grid2 size={6}>
               <h1>NOW HERES DA SCORES</h1>
-              <PlayerTable client={client} />
+              <PlayerTable players={players} levels={levels} />
             </Grid2>
             <Grid2 size={6}>
               <h1>HERES DA THANG</h1>
-              <LevelTable client={client} />
+              <LevelTable levels={levels} advantages={advantages} />
             </Grid2>
             <Grid2 spacing={12} sx={{ width: '100%' }}>
-              <QuestTable client={client} />
+              <QuestTable quests={quests} />
             </Grid2>
           </Grid2>
         </Box>

@@ -1,7 +1,8 @@
 import { Box, Drawer, List } from '@mui/material';
 import DrawerItem from './DrawerItem';
+import { Icons } from '../../utils/types';
 
-const drawerWidth = 240;
+const drawerWidth = 180;
 
 const PermanentDrawerLeft = () => {
   return (
@@ -16,9 +17,10 @@ const PermanentDrawerLeft = () => {
     >
       <Box sx={{ width: drawerWidth }}>
         <List>
-          {['Home', 'Player', 'Quests', 'Levels'].map((text) => (
-            <DrawerItem text={text} />
-          ))}
+          <DrawerItem text={'Home'} icon={Icons.HOME} />
+          <DrawerItem text={'Players'} icon={Icons.GROUP} />
+          <DrawerItem text={'Quests'} icon={Icons.LIST} />
+          <DrawerItem text={'Levels'} icon={Icons.ARROW} />
         </List>
       </Box>
     </Drawer>

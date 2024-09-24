@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ec7bc5d5-ac00-44f4-8460-5d4190b9d3c7",
+    "name": "Lucie",
+    "username": "Lucitron",
+    "xp": 400,
+    "karma": -26,
+    "levelId": "d4f682f3-1ad1-4bf5-9aac-3a55de3f9766",
+    "titleId": "",
+    "createdAt": "2024-09-19T08:28:23.492Z",
+    "updatedAt": "2024-09-23T14:36:08.273Z"
+  },
+  {
+    "id": "eb3a3dd7-d4eb-42c2-9284-f4d5e9b9dab7",
+    "name": "Maud",
+    "username": "Maudavion",
+    "xp": 115,
+    "karma": -48,
+    "levelId": "5fcef764-92f9-4511-ba29-c68e026fb441",
+    "titleId": "",
+    "createdAt": "2024-09-19T08:27:47.039Z",
+    "updatedAt": "2024-09-23T14:36:27.568Z"
+  },
+  {
+    "id": "3a67b89b-a116-478f-9a38-84d817ab3c28",
+    "name": "Jaune",
+    "username": "Floda",
+    "xp": 825,
+    "karma": 107,
+    "levelId": "45b6bd87-27f4-4fe7-9869-ee090f4455ff",
+    "titleId": "",
+    "createdAt": "2024-09-19T08:24:57.370Z",
+    "updatedAt": "2024-09-23T14:36:47.426Z"
+  },
+  {
+    "id": "6b94d694-d302-41aa-94ea-bf79813b73ff",
+    "name": "Josh",
+    "username": "Josejoaquim",
+    "xp": 150,
+    "karma": 45,
+    "levelId": "49630cc6-99fb-42d2-84ef-8b101259b158",
+    "titleId": "",
+    "createdAt": "2024-09-19T08:26:59.774Z",
+    "updatedAt": "2024-09-23T14:37:09.211Z"
+  },
+  {
+    "id": "ae24ceb8-fc8c-489e-ac50-066805003023",
+    "name": "Pascal",
+    "username": "Scalputron",
+    "xp": 314,
+    "karma": 218,
+    "levelId": "7b6cca4b-54af-45c1-8d04-ae6a04d2fedb",
+    "titleId": "",
+    "createdAt": "2024-09-19T08:27:29.901Z",
+    "updatedAt": "2024-09-23T14:37:28.908Z"
+  },
+  {
+    "id": "43d65b43-5a33-4d64-a0b9-70d54c7ad016",
+    "name": "Sacha",
+    "username": "Supipuliama",
+    "xp": 133,
+    "karma": 31,
+    "levelId": "5fcef764-92f9-4511-ba29-c68e026fb441",
+    "titleId": "",
+    "createdAt": "2024-09-19T08:28:07.026Z",
+    "updatedAt": "2024-09-23T13:57:33.725Z"
+  },
+  {
+    "id": "ef17f2cc-8090-4600-af66-d23ae06597ae",
+    "name": "Alex",
+    "username": "VapeNick",
+    "xp": 475,
+    "karma": 45,
+    "levelId": "d4f682f3-1ad1-4bf5-9aac-3a55de3f9766",
+    "titleId": "",
+    "createdAt": "2024-09-19T08:26:34.396Z",
+    "updatedAt": "2024-09-23T14:38:04.530Z"
+  }
+]

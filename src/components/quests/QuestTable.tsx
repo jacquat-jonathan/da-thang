@@ -1,5 +1,5 @@
 import { useEffect, useState, useMemo } from 'react';
-import type { Schema } from '../../amplify/data/resource';
+// import type { Schema } from '../../amplify/data/resource';
 import {
   Box,
   Paper,
@@ -15,9 +15,11 @@ import {
   Typography,
 } from '@mui/material';
 import { visuallyHidden } from '@mui/utils';
+import { Quest } from '../../utils/types';
 
 type QuestTableProps = {
-  client: any;
+  // client: any;
+  quests: Array<Quest>;
 };
 
 interface IQuest {
@@ -148,9 +150,9 @@ const EnhancedTableToolbar = () => {
   );
 };
 
-type Quest = Schema['Quest']['type'];
+// type DBQuest = Schema['Quest']['type'];
 
-const QuestTable: React.FC<QuestTableProps> = ({ client }) => {
+const QuestTable: React.FC<QuestTableProps> = ({ quests: qs }) => {
   const [quests, setQuests] = useState<Array<IQuest>>([]);
   const [loading, setLoading] = useState(true);
 
@@ -198,8 +200,8 @@ const QuestTable: React.FC<QuestTableProps> = ({ client }) => {
 
   // Quests
   const loadQuests = async () => {
-    const { data: list } = await client.models.Quest.list();
-    const questsList: Array<IQuest> = list.map((quest: Quest) => {
+    // const { data: list } = await client.models.Quest.list();
+    const questsList: Array<IQuest> = qs.map((quest: Quest) => {
       return {
         id: quest.id,
         description: quest.description,

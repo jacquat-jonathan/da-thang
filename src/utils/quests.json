@@ -1,0 +1,803 @@
+[
+  {
+    "id": "87aa44ed-2260-46a9-97bc-8fb730ec1dc5",
+    "description": "Déverrouiller un vélo cadenassé sans le voler",
+    "xp": 100,
+    "karma": -40,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:08:25.143Z",
+    "updatedAt": "2024-09-23T15:01:26.107Z"
+  },
+  {
+    "id": "4016990c-5dae-4694-b48e-fb22991c6dd3",
+    "description": "Prendre un autostoppeur",
+    "xp": 60,
+    "karma": 15,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:03:35.708Z",
+    "updatedAt": "2024-09-23T15:01:29.571Z"
+  },
+  {
+    "id": "14c4513c-fe6c-452f-a08c-4b2637bbb913",
+    "description": "Plante un arbre",
+    "xp": 25,
+    "karma": 2,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:58:15.500Z",
+    "updatedAt": "2024-09-23T15:01:31.896Z"
+  },
+  {
+    "id": "c688c11a-9baf-4a07-8368-15163e6a4991",
+    "description": "Claquer des doigts / siffler pour avoir une serveuse (inconnue)",
+    "xp": 50,
+    "karma": -30,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:01:38.973Z",
+    "updatedAt": "2024-09-23T15:01:34.150Z"
+  },
+  {
+    "id": "f56d7ac0-2c8c-4703-8e5f-5e2ade26a0b1",
+    "description": "Fais un fil de bave qui relie ta bouche à la terre (au moins 1m)",
+    "xp": 75,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:05:55.279Z",
+    "updatedAt": "2024-09-23T15:01:37.735Z"
+  },
+  {
+    "id": "21660646-8d3a-4620-910e-aa2f283ef599",
+    "description": "Retrouver un mec porté disparu (avis de police)",
+    "xp": 12500,
+    "karma": 500,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:16:42.008Z",
+    "updatedAt": "2024-09-23T15:01:40.350Z"
+  },
+  {
+    "id": "065ced0c-e70d-4f3b-95c5-a15b63f5a885",
+    "description": "Rate l'avion (annulation pas comptée)",
+    "xp": 350,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:14:35.835Z",
+    "updatedAt": "2024-09-23T15:01:43.045Z"
+  },
+  {
+    "id": "2b6959fa-2880-40c6-89d7-fe34984dba87",
+    "description": "Voter pour l'UDC",
+    "xp": 0,
+    "karma": -25,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:53:56.894Z",
+    "updatedAt": "2024-09-23T15:01:45.129Z"
+  },
+  {
+    "id": "276d3e9f-8a38-4011-9a4b-cb24c7729fa0",
+    "description": "Faire signer une pétition à 10 personnes pour que tous les suisses recoivent 10'000 chf",
+    "xp": 300,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:14:23.586Z",
+    "updatedAt": "2024-09-23T15:01:47.046Z"
+  },
+  {
+    "id": "49a36ca5-64ba-4698-9bd9-f9caf2d28709",
+    "description": "Promène un (des) chien(s) de la SPA (indépendant du nombre de chiens)",
+    "xp": 200,
+    "karma": 20,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:12:57.959Z",
+    "updatedAt": "2024-09-23T15:01:49.094Z"
+  },
+  {
+    "id": "0eb605ff-ba7b-48ed-9828-ea89c9a9478b",
+    "description": "Photographier un gypaète barbu",
+    "xp": 500,
+    "karma": 30,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:15:11.506Z",
+    "updatedAt": "2024-09-23T16:31:49.796Z"
+  },
+  {
+    "id": "91f8edc9-6ebc-4fce-8139-4f99205c770a",
+    "description": "Apprendre une langue a partir de zéro (maintenant) (au moins un B1, diplôme reconnu)",
+    "xp": 7000,
+    "karma": 100,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:16:30.254Z",
+    "updatedAt": "2024-09-23T15:01:50.684Z"
+  },
+  {
+    "id": "18855acb-b338-42d3-b16a-5d2215a2f8c9",
+    "description": "Chopper un poisson à la main (dans la mer, lac ou rivière)",
+    "xp": 100,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:09:09.993Z",
+    "updatedAt": "2024-09-23T16:31:04.957Z"
+  },
+  {
+    "id": "de838d12-2ded-4df4-9000-ec129c33f81a",
+    "description": "Dire \"excusez moi c'est Madame\" quand on t'appelle Monsieur (sauf si c'est un joueur qui demande, une fois par joueur)",
+    "xp": 35,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:58:45.423Z",
+    "updatedAt": "2024-09-23T16:30:14.238Z"
+  },
+  {
+    "id": "25650ee4-7f53-414b-a691-a9d964f9df30",
+    "description": "Compter jusqu'à 1000",
+    "xp": 50,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:01:18.275Z",
+    "updatedAt": "2024-09-23T16:30:35.624Z"
+  },
+  {
+    "id": "8778d42b-b78c-4ed5-844a-64d8ec1191c2",
+    "description": "Redis une blague plus fort et fait rire tout le monde (minimum 4 personnes, toi et le blagueur initial inclu, ça doit être legit)",
+    "xp": 100,
+    "karma": -20,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:09:22.079Z",
+    "updatedAt": "2024-09-23T15:01:52.271Z"
+  },
+  {
+    "id": "9133d5a3-2897-4714-b1d8-03e0e7d0d869",
+    "description": "Galoche une personne aux cheveux full blancs (de vieillesse)",
+    "xp": 150,
+    "karma": 10,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:11:28.513Z",
+    "updatedAt": "2024-09-23T16:31:22.744Z"
+  },
+  {
+    "id": "4e59a143-ad67-4634-826a-f8adede8a8b2",
+    "description": "Aider une personne âgée à traverser (cheveux blancs requis)",
+    "xp": 35,
+    "karma": 30,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:59:33.178Z",
+    "updatedAt": "2024-09-23T16:30:18.906Z"
+  },
+  {
+    "id": "c1a7d0d7-7378-48a7-8706-24a291dfe445",
+    "description": "Discuter avec Aurélien 10 min (1x par semaine max)",
+    "xp": 75,
+    "karma": 20,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:05:43.475Z",
+    "updatedAt": "2024-09-23T16:30:54.374Z"
+  },
+  {
+    "id": "8fcd15f8-64ba-44b0-8118-3e63b461d714",
+    "description": "Faire un mimi sur le crâne d'un chauve inconnu au crâne brillant",
+    "xp": 250,
+    "karma": 35,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:14:13.042Z",
+    "updatedAt": "2024-09-23T15:01:55.122Z"
+  },
+  {
+    "id": "c390447e-93c9-4366-ae76-d60b3b76e622",
+    "description": "Monte un escalator à l'envers (1x par escalator)",
+    "xp": 15,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:55:34.967Z",
+    "updatedAt": "2024-09-23T16:28:37.461Z"
+  },
+  {
+    "id": "2b6f6ba8-d360-4a1b-8aa3-5ce201a79a1a",
+    "description": "Va jouer à des jeux avec des vieux en EMS",
+    "xp": 150,
+    "karma": 25,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:10:59.120Z",
+    "updatedAt": "2024-09-23T16:31:25.233Z"
+  },
+  {
+    "id": "bd567c63-c5af-4396-9a6d-ed31af7e83b6",
+    "description": "Chier dans le lavabo",
+    "xp": 120,
+    "karma": -150,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:09:35.659Z",
+    "updatedAt": "2024-09-23T16:31:18.325Z"
+  },
+  {
+    "id": "3c08bc58-4b47-4eda-a3e5-4e19d7cab8a4",
+    "description": "Convaincre qqn que tu connais pas de jouer à un jeu de société avec toi (échecs, ...)",
+    "xp": 80,
+    "karma": 10,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:06:21.506Z",
+    "updatedAt": "2024-09-23T15:01:56.992Z"
+  },
+  {
+    "id": "da45fd25-b58e-42c2-84b4-0ebbdbb3c5a3",
+    "description": "Toquer à une cabine de chiotte occupée et demander si c'est bientôt fini",
+    "xp": 35,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:59:16.395Z",
+    "updatedAt": "2024-09-23T16:30:22.993Z"
+  },
+  {
+    "id": "72a94a0a-c31d-4254-9c2c-7ec056abd712",
+    "description": "Frauder un funiculaire 1x/jour",
+    "xp": 100,
+    "karma": -20,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:08:41.544Z",
+    "updatedAt": "2024-09-23T16:31:09.015Z"
+  },
+  {
+    "id": "d382c65e-9875-4f77-9920-50e910aa35ae",
+    "description": "Demander juste le biscuit de la glace à la Mucca, mordre dedans, le rendre",
+    "xp": 175,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:11:46.525Z",
+    "updatedAt": "2024-09-23T16:31:32.558Z"
+  },
+  {
+    "id": "fcd639f3-46f5-4d6f-8e92-50eecd9bf4d2",
+    "description": "Offrir une tournée (4 personnes min., soi même inclu)",
+    "xp": 0,
+    "karma": 20,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:39:24.536Z",
+    "updatedAt": "2024-09-23T15:01:59.041Z"
+  },
+  {
+    "id": "76272cb8-28fd-4eef-9d58-ad0f872c03bd",
+    "description": "Carresser le pitbull d'un type random (demander avant)",
+    "xp": 100,
+    "karma": 5,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:07:17.671Z",
+    "updatedAt": "2024-09-23T16:31:11.308Z"
+  },
+  {
+    "id": "faff52da-23b0-4510-8ffb-3a32d7a30da1",
+    "description": "Fait un cadeau d'anniversaire à quelqu'un (pas de prix minimum mais fair play, je vous vois venir à offrir un sugus bande de fdp)",
+    "xp": 40,
+    "karma": 5,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:00:16.378Z",
+    "updatedAt": "2024-09-23T16:30:28.502Z"
+  },
+  {
+    "id": "1da88e6c-d1bf-4b4f-a162-3372376827d4",
+    "description": "Sonner à un immeuble et se casser (une fois par immeuble par jour, pas chez soi)",
+    "xp": 5,
+    "karma": -10,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:54:50.055Z",
+    "updatedAt": "2024-09-23T16:28:03.977Z"
+  },
+  {
+    "id": "873f747a-c7a2-433b-ba6e-c51075b2d7d6",
+    "description": "Complimenter un homo",
+    "xp": 10,
+    "karma": 1,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:55:04.963Z",
+    "updatedAt": "2024-09-23T15:02:01.062Z"
+  },
+  {
+    "id": "64deb2a1-1cb4-436f-bcf4-a61e1032cde8",
+    "description": "Dis \"parle à ma main\" à un videur inconnu qui t'embrouille en lui montrant ta main",
+    "xp": 180,
+    "karma": -35,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:12:13.395Z",
+    "updatedAt": "2024-09-23T16:31:36.425Z"
+  },
+  {
+    "id": "d00747c3-48f8-4b83-8d6c-27c6eac819aa",
+    "description": "Serrer la main ou fist bump 10 personnes dans une queue",
+    "xp": 60,
+    "karma": 10,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:02:43.092Z",
+    "updatedAt": "2024-09-23T16:30:41.500Z"
+  },
+  {
+    "id": "a72aa176-7b45-4dd8-afbd-bbc2faa4892a",
+    "description": "Créer une quête (acceptée)",
+    "xp": 5,
+    "karma": 2,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:54:17.802Z",
+    "updatedAt": "2024-09-23T16:28:06.702Z"
+  },
+  {
+    "id": "2991cebd-ad04-4b95-bfae-52164afe7bde",
+    "description": "Donne le chemin à un inconnu qui demande (ou qui en a besoin)",
+    "xp": 60,
+    "karma": 15,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:04:45.191Z",
+    "updatedAt": "2024-09-23T15:02:03.120Z"
+  },
+  {
+    "id": "e005a2c9-bca7-40c0-a6ab-ab44a919b2be",
+    "description": "Serrer la main à Zito",
+    "xp": 5,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:54:35.699Z",
+    "updatedAt": "2024-09-23T16:28:12.427Z"
+  },
+  {
+    "id": "f2000df1-919a-4aec-a8bd-fe4577a4cbc2",
+    "description": "Aller à Bagdad et dire \"Hé ptn c'est Bagdad ici ou quoi ?",
+    "xp": 3500,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:16:03.531Z",
+    "updatedAt": "2024-09-23T15:02:26.947Z"
+  },
+  {
+    "id": "38d0766a-4804-49d8-8145-d67271a5634d",
+    "description": "Commande \"un macdonald svp\" au macdrive (seulement ça)",
+    "xp": 70,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:05:29.215Z",
+    "updatedAt": "2024-09-23T16:30:47.187Z"
+  },
+  {
+    "id": "c080a204-dfc1-494b-a6f2-6b2b2c450dfd",
+    "description": "Se baigner dans une fontaine",
+    "xp": 60,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:04:31.516Z",
+    "updatedAt": "2024-09-23T15:02:28.760Z"
+  },
+  {
+    "id": "26496b72-42ea-4310-8ee5-91dc59b79372",
+    "description": "Placarder 20 feuilles avec un avis de recherche pour un poisson",
+    "xp": 125,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:09:50.038Z",
+    "updatedAt": "2024-09-23T16:31:20.505Z"
+  },
+  {
+    "id": "83a10d70-041e-4eb3-8f9c-73b09d204388",
+    "description": "Va camper",
+    "xp": 150,
+    "karma": 10,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:10:35.506Z",
+    "updatedAt": "2024-09-23T15:02:35.404Z"
+  },
+  {
+    "id": "b509e4f4-bf72-492a-9f80-1eda6487d3e1",
+    "description": "Amener les croissant le matin à un autre joueur",
+    "xp": 40,
+    "karma": 20,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:59:52.099Z",
+    "updatedAt": "2024-09-23T15:02:30.736Z"
+  },
+  {
+    "id": "3b1c7adc-bf52-413d-a0f5-5580b59e7fd2",
+    "description": "Être le poto qui conduit (min. 3 personnes soi-même inclu)",
+    "xp": 250,
+    "karma": 50,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:13:57.599Z",
+    "updatedAt": "2024-09-23T16:25:47.822Z"
+  },
+  {
+    "id": "26faa663-d61b-4d36-a2ac-0229a4fe3d02",
+    "description": "Ouvrir un pot de cornichons pour sa grand-mère",
+    "xp": 20,
+    "karma": 30,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:56:10.585Z",
+    "updatedAt": "2024-09-23T15:02:37.503Z"
+  },
+  {
+    "id": "bd69328f-8693-4c24-8e80-5bf55de1cbd7",
+    "description": "Couper le truc du kebab avec le couteau soi-même",
+    "xp": 150,
+    "karma": 10,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:10:47.516Z",
+    "updatedAt": "2024-09-23T15:02:40.564Z"
+  },
+  {
+    "id": "9ddea3af-f85b-4f69-9198-81f724f4f68f",
+    "description": "Aller à la messe",
+    "xp": 100,
+    "karma": 10,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:08:10.694Z",
+    "updatedAt": "2024-09-23T15:02:45.510Z"
+  },
+  {
+    "id": "43d358db-065b-4e5a-8ea3-21d0a62d832d",
+    "description": "Hurle à la pleine lune comme un loup en ville (pleine lune obligatoire et visible, une fois par nuit)",
+    "xp": 50,
+    "karma": -10,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:02:26.807Z",
+    "updatedAt": "2024-09-23T16:25:49.942Z"
+  },
+  {
+    "id": "716ac74b-e42b-4897-9a49-bb6b4e0d991b",
+    "description": "Serrer la main à un chef d'état (une fois par chef, conseillé fédéral compte pas sauf si président(e) du CF)",
+    "xp": 5000,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:16:17.579Z",
+    "updatedAt": "2024-09-23T15:02:42.555Z"
+  },
+  {
+    "id": "e15d3346-008f-46d1-abc1-e14e4253d94e",
+    "description": "Inviter quelqu'un de viable au jeu",
+    "xp": 0,
+    "karma": 50,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:51:25.190Z",
+    "updatedAt": "2024-09-23T15:02:47.990Z"
+  },
+  {
+    "id": "ff447891-e178-4e30-95fb-a5c83a43b458",
+    "description": "Offrir un paquet de cartes Pokémon à un enfant dont tu connais pas le nom",
+    "xp": 100,
+    "karma": 35,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:07:54.353Z",
+    "updatedAt": "2024-09-23T15:02:50.086Z"
+  },
+  {
+    "id": "aed31715-bdeb-4f1f-ba2b-b87710c007c1",
+    "description": "Fait un sommet (minimum 1500m)",
+    "xp": 90,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:07:06.780Z",
+    "updatedAt": "2024-09-23T16:25:55.833Z"
+  },
+  {
+    "id": "0a4e894e-09b8-47d5-b0e1-9759e216b007",
+    "description": "Donner un 6 pack de bière (ou paquet de clopes) à un clochard",
+    "xp": 150,
+    "karma": 75,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:10:04.807Z",
+    "updatedAt": "2024-09-23T16:25:58.118Z"
+  },
+  {
+    "id": "182ba4e2-b0f3-4d9e-adef-b4838bc36609",
+    "description": "Pisser sur quelqu'un (au moins 10cm² au dessus de ses genoux recouverts)",
+    "xp": 200,
+    "karma": -300,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:13:21.570Z",
+    "updatedAt": "2024-09-23T16:26:00.074Z"
+  },
+  {
+    "id": "4d76b700-1d8e-4775-a126-eb632d512d4a",
+    "description": "Fais une roulade en rentrant dans un bar (une fois par bar par jour)",
+    "xp": 70,
+    "karma": 10,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:05:17.048Z",
+    "updatedAt": "2024-09-23T16:30:50.378Z"
+  },
+  {
+    "id": "4f88ee26-41bc-4b9e-8b74-1eab432a6094",
+    "description": "Vomir à cause de l'alcool",
+    "xp": 40,
+    "karma": -10,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:00:29.758Z",
+    "updatedAt": "2024-09-23T16:26:02.145Z"
+  },
+  {
+    "id": "36a00c84-a470-4b7f-b3ff-6a0c66572079",
+    "description": "Chier dans le lac",
+    "xp": 50,
+    "karma": -20,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:02:13.913Z",
+    "updatedAt": "2024-09-23T16:26:03.939Z"
+  },
+  {
+    "id": "3ee2b235-538b-4c34-ac7e-f53fd2dcc10d",
+    "description": "Faire du bénévolat (minimum 1h, une fois par mois max)",
+    "xp": 200,
+    "karma": 20,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:12:25.109Z",
+    "updatedAt": "2024-09-23T16:26:06.341Z"
+  },
+  {
+    "id": "ad301f00-9080-486a-a1f0-d1e33d9a844e",
+    "description": "Emprunter le vélo d'un mec posé à coté de son vélo et faire un petit tour",
+    "xp": 60,
+    "karma": 5,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:02:59.061Z",
+    "updatedAt": "2024-09-23T16:26:08.452Z"
+  },
+  {
+    "id": "449303df-d7ff-4dd0-bbe7-8f7ac93c13b3",
+    "description": "Voler un bonbon à un enfant inconnu",
+    "xp": 100,
+    "karma": -50,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:07:37.714Z",
+    "updatedAt": "2024-09-23T16:26:10.640Z"
+  },
+  {
+    "id": "b898e9d1-d56c-4446-88c3-83965398a3c4",
+    "description": "Ouvre un yogourt sans qu'il y en ait sur le truc en alu (preuve vidéo obligatoire, une fois par jour)",
+    "xp": 40,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:00:47.046Z",
+    "updatedAt": "2024-09-23T16:26:12.860Z"
+  },
+  {
+    "id": "50b92f0f-53f2-4116-b8f2-4a36cfe10569",
+    "description": "Demander à un inconnu en chaise roulante si ça roule (non cumulable si on le revoit)",
+    "xp": 100,
+    "karma": -50,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:08:57.170Z",
+    "updatedAt": "2024-09-23T16:26:15.069Z"
+  },
+  {
+    "id": "c02f987e-c5fc-4048-89f5-73728d5ebc3c",
+    "description": "Aider un employé de coop pronto à ranger les boissons",
+    "xp": 150,
+    "karma": 25,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:10:18.562Z",
+    "updatedAt": "2024-09-23T16:26:17.034Z"
+  },
+  {
+    "id": "67532380-68a4-400c-8ba4-7e53469af12e",
+    "description": "Donner un compliment à une personne random que tu connais pas (une fois par personne random)",
+    "xp": 25,
+    "karma": 5,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:56:42.059Z",
+    "updatedAt": "2024-09-23T16:26:19.337Z"
+  },
+  {
+    "id": "8a4ad900-416f-4a20-926c-f725e85313ca",
+    "description": "Prendre une photo avec un type connu dans la rue, ça compte à partir de 200k followers sur insta, xp = 1 pour chaque millier, gold = 1 pour chaque 20k, une fois par célébrité, sauf fabio)",
+    "xp": 0,
+    "karma": 0,
+    "isEditable": true,
+    "createdAt": "2024-09-19T08:39:15.830Z",
+    "updatedAt": "2024-09-23T16:27:49.098Z"
+  },
+  {
+    "id": "87281ca8-945d-466b-b7b5-3994f82b02b7",
+    "description": "Amener des fleurs à Maman",
+    "xp": 60,
+    "karma": 20,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:03:22.134Z",
+    "updatedAt": "2024-09-23T16:26:23.507Z"
+  },
+  {
+    "id": "a4b0abb4-6170-4ca9-99b5-d4eab9897fa1",
+    "description": "Prête ton parapluie à un inconnu quand il pleut",
+    "xp": 80,
+    "karma": 25,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:06:54.637Z",
+    "updatedAt": "2024-09-23T16:30:58.957Z"
+  },
+  {
+    "id": "23787818-3ec2-4463-86b6-dc18840644f2",
+    "description": "Aider un mec à arroser son jardin (1 fois par mec par jour)",
+    "xp": 70,
+    "karma": 25,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:04:59.313Z",
+    "updatedAt": "2024-09-23T16:26:25.916Z"
+  },
+  {
+    "id": "2430a48d-b455-4a8d-bfd5-cd6e6feab33c",
+    "description": "Faire un don de sperme",
+    "xp": 230,
+    "karma": 100,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:13:33.178Z",
+    "updatedAt": "2024-09-23T16:26:27.946Z"
+  },
+  {
+    "id": "83cabf50-34ae-4da4-9b19-bcf79dd3f522",
+    "description": "Faire un appel à la réception de la migros pour votre fils perdu (1000xp si il s'appelle Adolf)",
+    "xp": 200,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:13:09.509Z",
+    "updatedAt": "2024-09-23T16:26:29.855Z"
+  },
+  {
+    "id": "7cf8bfd8-1ef1-40c3-adc6-a65ebdec4f8a",
+    "description": "Gagner un jeu TV",
+    "xp": 1000,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:15:52.223Z",
+    "updatedAt": "2024-09-23T16:26:32.615Z"
+  },
+  {
+    "id": "d327a4f1-def8-4e15-aa08-b09872281eb3",
+    "description": "Chante \"Tequila - The Champs\" à un karaoké public",
+    "xp": 180,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:11:58.433Z",
+    "updatedAt": "2024-09-23T16:26:35.980Z"
+  },
+  {
+    "id": "39bd56a2-db3a-4e7f-83ec-edf5017802e8",
+    "description": "Laisser sa place dans le bus à un ptit vieux dans le bus, genre le ptit vieux plié en deux",
+    "xp": 150,
+    "karma": 30,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:11:12.160Z",
+    "updatedAt": "2024-09-23T16:26:38.872Z"
+  },
+  {
+    "id": "d73ef945-0138-4126-9965-68c073709e00",
+    "description": "Donne ton numéro sur un papier à une personne inconnue et part en courant sans un mot (jusqu'à être hors de vue)",
+    "xp": 80,
+    "karma": 30,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:06:40.217Z",
+    "updatedAt": "2024-09-23T16:26:43.719Z"
+  },
+  {
+    "id": "2e796b8d-0948-4deb-94d2-202afcdb76ea",
+    "description": "Allumer la sirène de pompier/ambulance/police (non valable si du métier)",
+    "xp": 400,
+    "karma": 25,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:14:49.600Z",
+    "updatedAt": "2024-09-23T16:26:41.429Z"
+  },
+  {
+    "id": "9f51e4e0-2c90-4371-b5d4-23d146936d1d",
+    "description": "Faire un rond en dessous de la ceinture devant une caméra en passant à la télé",
+    "xp": 800,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:15:32.174Z",
+    "updatedAt": "2024-09-23T16:26:49.806Z"
+  },
+  {
+    "id": "55cff32f-17ff-4cfb-a941-6434eb8e9f35",
+    "description": "Dire merci chauffeur en sortant du bus",
+    "xp": 10,
+    "karma": 5,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:55:15.619Z",
+    "updatedAt": "2024-09-23T16:26:46.385Z"
+  },
+  {
+    "id": "857148e0-92f4-4b7f-8dc3-de479f07cb39",
+    "description": "Regarde un film en allemand sans sous-titres",
+    "xp": 25,
+    "karma": 0,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:56:25.693Z",
+    "updatedAt": "2024-09-23T16:26:52.494Z"
+  },
+  {
+    "id": "faf4e653-0aac-42c6-991b-43e2d2bc3e3d",
+    "description": "Caresse une vache (une fois par jour)",
+    "xp": 30,
+    "karma": 5,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:58:29.381Z",
+    "updatedAt": "2024-09-23T16:30:10.659Z"
+  },
+  {
+    "id": "ad6de7a3-771d-45f2-8b25-470fabece861",
+    "description": "Retrouver un animal pet alert",
+    "xp": 1000,
+    "karma": 200,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:15:42.726Z",
+    "updatedAt": "2024-09-23T16:26:54.569Z"
+  },
+  {
+    "id": "cb177033-de7e-4f4c-88f4-0a18ccfba68e",
+    "description": "Toucher les couilles d'un sécu en bar/boîte",
+    "xp": 500,
+    "karma": 50,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:14:59.898Z",
+    "updatedAt": "2024-09-23T16:26:56.750Z"
+  },
+  {
+    "id": "372f655a-6333-48bf-a15e-2c848350a0d7",
+    "description": "Lire un livre pour enfant à des vieux sur un banc",
+    "xp": 250,
+    "karma": 10,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:13:44.845Z",
+    "updatedAt": "2024-09-23T16:31:42.263Z"
+  },
+  {
+    "id": "7c707d8b-98d5-47e6-8f58-2db08602e6a3",
+    "description": "Voter",
+    "xp": 50,
+    "karma": 10,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:01:02.269Z",
+    "updatedAt": "2024-09-23T16:26:58.911Z"
+  },
+  {
+    "id": "40e8ff1c-c303-4ef8-a29f-1dc9c16b213f",
+    "description": "Dire à qqn que tu connais pas \"t'es gênant",
+    "xp": 50,
+    "karma": -10,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:02:00.349Z",
+    "updatedAt": "2024-09-23T16:27:00.927Z"
+  },
+  {
+    "id": "6ad3149b-a024-45b2-bf6c-daca560ff771",
+    "description": "Pêter dans un ascenseur (xp et karma par personnes)",
+    "xp": 20,
+    "karma": -15,
+    "isEditable": true,
+    "createdAt": "2024-09-19T08:55:56.603Z",
+    "updatedAt": "2024-09-23T16:28:42.148Z"
+  },
+  {
+    "id": "66c75a1d-7085-4de6-b9e4-7e8dbe41e2b4",
+    "description": "Trouver un trèfle à 4 (encore en terre)  (100xp par feuille en plus que 3)",
+    "xp": 0,
+    "karma": 0,
+    "isEditable": true,
+    "createdAt": "2024-09-19T08:51:50.129Z",
+    "updatedAt": "2024-09-23T16:27:58.101Z"
+  },
+  {
+    "id": "71fc7885-0a3c-4540-ae95-bd4358c63524",
+    "description": "Ne pas voter",
+    "xp": 0,
+    "karma": -20,
+    "isEditable": false,
+    "createdAt": "2024-09-19T08:39:37.412Z",
+    "updatedAt": "2024-09-23T16:27:53.417Z"
+  },
+  {
+    "id": "aa8104d7-b249-4ae8-81d9-878ea45049b1",
+    "description": "Être mère porteuse",
+    "xp": 100000,
+    "karma": 2000,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:16:54.072Z",
+    "updatedAt": "2024-09-23T16:27:06.958Z"
+  },
+  {
+    "id": "b597c322-8f4f-4bb6-ac10-8a9fbd9ed42a",
+    "description": "Aide quelqu'un à déménager",
+    "xp": 80,
+    "karma": 15,
+    "isEditable": false,
+    "createdAt": "2024-09-19T09:06:08.240Z",
+    "updatedAt": "2024-09-23T16:27:08.913Z"
+  }
+]

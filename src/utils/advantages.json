@@ -1,0 +1,44 @@
+[
+  {
+    "id": "c71ce74a-67bf-479e-86ef-43ae444413b0",
+    "description": "Vous pouvez désormais rire en pointant du doigt les joueurs de niveau inférieur à 5",
+    "levelId": "7b6cca4b-54af-45c1-8d04-ae6a04d2fedb",
+    "createdAt": "2024-09-19T08:32:58.528Z",
+    "updatedAt": "2024-09-23T14:31:42.006Z"
+  },
+  {
+    "id": "4f629761-f87d-4f4a-9861-4056cc4bd1d6",
+    "description": "Si vous avez un débat avec un joueur de niveau inférieur à 25, vous pouvez y mettre fin grâce à \"TG\", dans ce cas le joueur doit vous donner raison et arrêter de parler",
+    "levelId": "d5c92834-dbe5-474c-9520-4e94d6e768ff",
+    "createdAt": "2024-09-19T08:34:38.148Z",
+    "updatedAt": "2024-09-23T14:32:30.363Z"
+  },
+  {
+    "id": "d793700b-9c36-4192-9d61-1eafc9429927",
+    "description": "Vous pouvez désormais désigner les joueurs de niveau inférieur au votre par \"noob",
+    "levelId": "c851ee6c-64d2-45d0-9385-c262df207501",
+    "createdAt": "2024-09-19T08:31:20.189Z",
+    "updatedAt": "2024-09-23T14:31:08.982Z"
+  },
+  {
+    "id": "ca1d5a15-9e93-4db9-a60b-cd273bf99024",
+    "description": "Vos \"shotguns\" prévalent sur les joueurs de niveau inférieur à 25",
+    "levelId": "46d48094-cc1c-4afa-9562-a6082adc9a63",
+    "createdAt": "2024-09-19T08:33:47.548Z",
+    "updatedAt": "2024-09-23T14:32:03.073Z"
+  },
+  {
+    "id": "c373139e-fa54-43f1-a933-f6cfb515b449",
+    "description": "Compétence : Dab vertueux, accomplir une quête en dabant donne un bonus de 10xp",
+    "levelId": "5fcef764-92f9-4511-ba29-c68e026fb441",
+    "createdAt": "2024-09-19T08:32:24.880Z",
+    "updatedAt": "2024-09-23T14:31:33.070Z"
+  },
+  {
+    "id": "d982d04e-c2fd-4200-b3ef-cbb40e3a8e4e",
+    "description": "Vous êtes imunisé des ronds sous la ceinture de joueurs de niveau inférieur à 10",
+    "levelId": "b557560d-e903-48e2-be1f-0e966a031ebc",
+    "createdAt": "2024-09-19T08:33:26.684Z",
+    "updatedAt": "2024-09-23T14:31:51.094Z"
+  }
+]

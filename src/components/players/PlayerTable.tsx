@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import type { Schema } from '../../amplify/data/resource';
+// import type { Schema } from '../../amplify/data/resource';
 import {
   Table,
   TableBody,
@@ -11,12 +11,15 @@ import {
   tableCellClasses,
   styled,
 } from '@mui/material';
+import { Level, Player } from '../../utils/types';
 
 type PlayerTableProps = {
-  client: any;
+  // client: any;
+  players: Array<Player>;
+  levels: Array<Level>;
 };
 
-type Player = Schema['Player']['type'];
+// type DBPlayer = Schema['Player']['type'];
 
 interface IPlayer {
   id: string;
@@ -44,26 +47,25 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 }));
 
-const PlayerTable: React.FC<PlayerTableProps> = ({ client }) => {
+const PlayerTable: React.FC<PlayerTableProps> = ({ players: ps, levels }) => {
   const [players, setPlayers] = useState<Array<IPlayer>>([]);
   const [loading, setLoading] = useState(true);
 
   const loadPlayers = async () => {
     try {
-      const { data: list } = await client.models.Player.list();
-      const levels: number[] = await loadPlayerLevel(list);
-      const playersArray: Array<IPlayer> = list.map(
-        (player: Player, index: number) => {
-          return {
-            id: player.id,
-            name: player.name,
-            username: player.username,
-            xp: player.xp,
-            karma: player.karma,
-            level: levels[index],
-          } as IPlayer;
-        }
-      );
+      // const { data: list } = await client.models.Player.list();
+      // const levels: number[] = await loadPlayerLevel(list);
+      const playersArray: Array<IPlayer> = ps.map((player: Player) => {
+        const level = levels.find((lvl) => lvl.id === player.levelId);
+        return {
+          id: player.id,
+          name: player.name,
+          username: player.username,
+          xp: player.xp,
+          karma: player.karma,
+          level: level?.level,
+        } as IPlayer;
+      });
       const playersArraySorted = sortArrayByXp(playersArray);
       setPlayers(playersArraySorted);
       setLoading(false);
@@ -77,7 +79,7 @@ const PlayerTable: React.FC<PlayerTableProps> = ({ client }) => {
     return arr.sort((a: IPlayer, b: IPlayer) => b.xp - a.xp);
   };
 
-  const loadPlayerLevel = async (players: Array<Player>) => {
+  /*const loadPlayerLevel = async (players: Array<Player>) => {
     const levels: number[] = [];
     for (const player of players) {
       const { data: level } = await player.level();
@@ -91,7 +93,7 @@ const PlayerTable: React.FC<PlayerTableProps> = ({ client }) => {
       }
     }
     return levels;
-  };
+  };*/
 
   useEffect(() => {
     loadPlayers();

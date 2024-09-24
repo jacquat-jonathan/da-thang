@@ -1,0 +1,810 @@
+[
+  {
+    "id": "df1ecadf-e405-4ebf-b6b1-e49b389e1b6d",
+    "level": 42,
+    "requiredXp": 70735,
+    "xpToNextLevel": 4945,
+    "createdAt": "2024-09-23T13:50:31.782Z",
+    "updatedAt": "2024-09-23T13:50:31.782Z"
+  },
+  {
+    "id": "d65b3f00-26b3-4a15-aa3b-68a89153e944",
+    "level": 19,
+    "requiredXp": 7600,
+    "xpToNextLevel": 1150,
+    "createdAt": "2024-09-23T13:50:30.008Z",
+    "updatedAt": "2024-09-23T13:50:30.008Z"
+  },
+  {
+    "id": "c899b4b4-0f1c-467c-96ab-cac925b1b93b",
+    "level": 30,
+    "requiredXp": 27125,
+    "xpToNextLevel": 2635,
+    "createdAt": "2024-09-23T13:50:30.818Z",
+    "updatedAt": "2024-09-23T13:50:30.818Z"
+  },
+  {
+    "id": "efdbb6b0-bf2a-426d-841d-f339fe802d65",
+    "level": 14,
+    "requiredXp": 3325,
+    "xpToNextLevel": 675,
+    "createdAt": "2024-09-23T13:50:29.669Z",
+    "updatedAt": "2024-09-23T13:50:29.669Z"
+  },
+  {
+    "id": "e5dbeecf-278c-4976-b9b0-1d3cf66a3783",
+    "level": 72,
+    "requiredXp": 337260,
+    "xpToNextLevel": 13870,
+    "createdAt": "2024-09-23T13:50:33.971Z",
+    "updatedAt": "2024-09-23T13:50:33.971Z"
+  },
+  {
+    "id": "2bcd8563-6c93-48b2-ad80-29118d0df1b4",
+    "level": 43,
+    "requiredXp": 75680,
+    "xpToNextLevel": 5170,
+    "createdAt": "2024-09-23T13:50:31.848Z",
+    "updatedAt": "2024-09-23T13:50:31.848Z"
+  },
+  {
+    "id": "1bcd336a-c8db-4e5d-a7b2-ac9c23a29a5d",
+    "level": 52,
+    "requiredXp": 130910,
+    "xpToNextLevel": 7420,
+    "createdAt": "2024-09-23T13:50:32.591Z",
+    "updatedAt": "2024-09-23T13:50:32.591Z"
+  },
+  {
+    "id": "14132769-2388-47e8-97ee-eb5c1ee3fdc2",
+    "level": 18,
+    "requiredXp": 6555,
+    "xpToNextLevel": 1045,
+    "createdAt": "2024-09-23T13:50:29.941Z",
+    "updatedAt": "2024-09-23T13:50:29.941Z"
+  },
+  {
+    "id": "b557560d-e903-48e2-be1f-0e966a031ebc",
+    "level": 10,
+    "requiredXp": 1375,
+    "xpToNextLevel": 385,
+    "createdAt": "2024-09-23T13:50:29.340Z",
+    "updatedAt": "2024-09-23T14:31:50.905Z"
+  },
+  {
+    "id": "c37889d5-4385-4fad-9ece-9a36351b1f64",
+    "level": 39,
+    "requiredXp": 57200,
+    "xpToNextLevel": 4300,
+    "createdAt": "2024-09-23T13:50:31.565Z",
+    "updatedAt": "2024-09-23T13:50:31.565Z"
+  },
+  {
+    "id": "faa1083d-94d1-463b-ab1e-2edc12d62a36",
+    "level": 35,
+    "requiredXp": 42000,
+    "xpToNextLevel": 3510,
+    "createdAt": "2024-09-23T13:50:31.237Z",
+    "updatedAt": "2024-09-23T13:50:31.237Z"
+  },
+  {
+    "id": "ff33bb31-4cea-4354-ab1d-ee9dddd0495b",
+    "level": 96,
+    "requiredXp": 783760,
+    "xpToNextLevel": 24250,
+    "createdAt": "2024-09-23T13:50:35.657Z",
+    "updatedAt": "2024-09-23T13:50:35.657Z"
+  },
+  {
+    "id": "18d4b1dc-2173-46d7-a1df-4646dc778fea",
+    "level": 13,
+    "requiredXp": 2730,
+    "xpToNextLevel": 595,
+    "createdAt": "2024-09-23T13:50:29.575Z",
+    "updatedAt": "2024-09-23T13:50:29.575Z"
+  },
+  {
+    "id": "298c2028-36b7-4a4c-aa38-77bd2f898196",
+    "level": 20,
+    "requiredXp": 8750,
+    "xpToNextLevel": 1260,
+    "createdAt": "2024-09-23T13:50:30.072Z",
+    "updatedAt": "2024-09-23T13:50:30.072Z"
+  },
+  {
+    "id": "04bd122c-debc-454f-9bf2-1545bd2bfbf9",
+    "level": 21,
+    "requiredXp": 10010,
+    "xpToNextLevel": 1375,
+    "createdAt": "2024-09-23T13:50:30.154Z",
+    "updatedAt": "2024-09-23T13:50:30.154Z"
+  },
+  {
+    "id": "b6240eb7-614f-418b-9f3a-42a3fa94b57e",
+    "level": 49,
+    "requiredXp": 110250,
+    "xpToNextLevel": 6625,
+    "createdAt": "2024-09-23T13:50:32.398Z",
+    "updatedAt": "2024-09-23T13:50:32.398Z"
+  },
+  {
+    "id": "67301f7d-4a0e-4c66-a5f4-ead8f0a37b1b",
+    "level": 68,
+    "requiredXp": 285430,
+    "xpToNextLevel": 12420,
+    "createdAt": "2024-09-23T13:50:33.724Z",
+    "updatedAt": "2024-09-23T13:50:33.724Z"
+  },
+  {
+    "id": "ad2f104e-f1f0-4060-8af8-367bf8efe8a9",
+    "level": 58,
+    "requiredXp": 179655,
+    "xpToNextLevel": 9145,
+    "createdAt": "2024-09-23T13:50:33.047Z",
+    "updatedAt": "2024-09-23T13:50:33.047Z"
+  },
+  {
+    "id": "ae454c9c-7f52-4139-b012-88a2f390d56b",
+    "level": 9,
+    "requiredXp": 1050,
+    "xpToNextLevel": 325,
+    "createdAt": "2024-09-23T13:50:29.277Z",
+    "updatedAt": "2024-09-23T13:50:29.277Z"
+  },
+  {
+    "id": "05dd35b8-15d7-4f11-b80d-32119c09b834",
+    "level": 31,
+    "requiredXp": 29760,
+    "xpToNextLevel": 2800,
+    "createdAt": "2024-09-23T13:50:30.889Z",
+    "updatedAt": "2024-09-23T13:50:30.889Z"
+  },
+  {
+    "id": "76a9a6b8-c508-4285-8d8a-4057a8f44011",
+    "level": 81,
+    "requiredXp": 476010,
+    "xpToNextLevel": 17425,
+    "createdAt": "2024-09-23T13:50:34.604Z",
+    "updatedAt": "2024-09-23T13:50:34.604Z"
+  },
+  {
+    "id": "48de8d2a-3bbf-4afa-981f-52e7c3785cf5",
+    "level": 46,
+    "requiredXp": 91885,
+    "xpToNextLevel": 5875,
+    "createdAt": "2024-09-23T13:50:32.172Z",
+    "updatedAt": "2024-09-23T13:50:32.172Z"
+  },
+  {
+    "id": "5fcef764-92f9-4511-ba29-c68e026fb441",
+    "level": 3,
+    "requiredXp": 80,
+    "xpToNextLevel": 70,
+    "createdAt": "2024-09-23T13:50:28.750Z",
+    "updatedAt": "2024-09-23T14:31:32.921Z"
+  },
+  {
+    "id": "c6323cb1-e33e-4edd-97eb-66bb4fc6f008",
+    "level": 0,
+    "requiredXp": 0,
+    "xpToNextLevel": 10,
+    "createdAt": "2024-09-23T13:55:51.968Z",
+    "updatedAt": "2024-09-23T13:55:51.968Z"
+  },
+  {
+    "id": "b4f618e6-2d99-47c0-86c3-85f832eda2a3",
+    "level": 51,
+    "requiredXp": 123760,
+    "xpToNextLevel": 7150,
+    "createdAt": "2024-09-23T13:50:32.528Z",
+    "updatedAt": "2024-09-23T13:50:32.528Z"
+  },
+  {
+    "id": "60667ac8-9db7-42e1-8f2c-1cdb2fe1e50e",
+    "level": 37,
+    "requiredXp": 49210,
+    "xpToNextLevel": 3895,
+    "createdAt": "2024-09-23T13:50:31.393Z",
+    "updatedAt": "2024-09-23T13:50:31.393Z"
+  },
+  {
+    "id": "8cfd1827-a396-4591-902a-82aa32575fe9",
+    "level": 15,
+    "requiredXp": 4000,
+    "xpToNextLevel": 760,
+    "createdAt": "2024-09-23T13:50:29.741Z",
+    "updatedAt": "2024-09-23T13:50:29.741Z"
+  },
+  {
+    "id": "7feb8871-dda7-47ca-b561-0406fa398c83",
+    "level": 36,
+    "requiredXp": 45510,
+    "xpToNextLevel": 3700,
+    "createdAt": "2024-09-23T13:50:31.301Z",
+    "updatedAt": "2024-09-23T13:50:31.301Z"
+  },
+  {
+    "id": "6e1f302a-cab7-440c-a6fd-cc50ebf8ab5a",
+    "level": 38,
+    "requiredXp": 53105,
+    "xpToNextLevel": 4095,
+    "createdAt": "2024-09-23T13:50:31.478Z",
+    "updatedAt": "2024-09-23T13:50:31.478Z"
+  },
+  {
+    "id": "4e8124b7-d71e-43ac-9170-16b6cddd80fb",
+    "level": 33,
+    "requiredXp": 35530,
+    "xpToNextLevel": 3145,
+    "createdAt": "2024-09-23T13:50:31.022Z",
+    "updatedAt": "2024-09-23T13:50:31.022Z"
+  },
+  {
+    "id": "e51d74cc-400e-4635-a39c-dd72948534d1",
+    "level": 47,
+    "requiredXp": 97760,
+    "xpToNextLevel": 6120,
+    "createdAt": "2024-09-23T13:50:32.237Z",
+    "updatedAt": "2024-09-23T13:50:32.237Z"
+  },
+  {
+    "id": "099bd835-7a7b-4e79-8a3a-3d23f14a1c44",
+    "level": 16,
+    "requiredXp": 4760,
+    "xpToNextLevel": 850,
+    "createdAt": "2024-09-23T13:50:29.807Z",
+    "updatedAt": "2024-09-23T13:50:29.807Z"
+  },
+  {
+    "id": "4d2d4bfe-eda6-4786-9f14-9096afc5fa7d",
+    "level": 95,
+    "requiredXp": 760000,
+    "xpToNextLevel": 23760,
+    "createdAt": "2024-09-23T13:50:35.576Z",
+    "updatedAt": "2024-09-23T13:50:35.576Z"
+  },
+  {
+    "id": "6b18523f-017d-4ab6-a068-9a344342e3c0",
+    "level": 2,
+    "requiredXp": 35,
+    "xpToNextLevel": 45,
+    "createdAt": "2024-09-23T13:50:28.685Z",
+    "updatedAt": "2024-09-23T13:50:28.685Z"
+  },
+  {
+    "id": "ea2f72d9-dedf-4ea4-99a0-252ae2f04769",
+    "level": 91,
+    "requiredXp": 669760,
+    "xpToNextLevel": 21850,
+    "createdAt": "2024-09-23T13:50:35.316Z",
+    "updatedAt": "2024-09-23T13:50:35.316Z"
+  },
+  {
+    "id": "2bb0d174-ee7c-42cb-be54-ad968d0ec6eb",
+    "level": 80,
+    "requiredXp": 459000,
+    "xpToNextLevel": 17010,
+    "createdAt": "2024-09-23T13:50:34.533Z",
+    "updatedAt": "2024-09-23T13:50:34.533Z"
+  },
+  {
+    "id": "6145a952-b38c-42e0-a848-e2ac86abe493",
+    "level": 63,
+    "requiredXp": 228480,
+    "xpToNextLevel": 10720,
+    "createdAt": "2024-09-23T13:50:33.378Z",
+    "updatedAt": "2024-09-23T13:50:33.378Z"
+  },
+  {
+    "id": "d34a5a81-200f-4758-956e-7a68426f058d",
+    "level": 94,
+    "requiredXp": 736725,
+    "xpToNextLevel": 23275,
+    "createdAt": "2024-09-23T13:50:35.507Z",
+    "updatedAt": "2024-09-23T13:50:35.507Z"
+  },
+  {
+    "id": "e49ed00f-9197-4c87-9bdf-c4e9a1f601b0",
+    "level": 53,
+    "requiredXp": 138330,
+    "xpToNextLevel": 7695,
+    "createdAt": "2024-09-23T13:50:32.651Z",
+    "updatedAt": "2024-09-23T13:50:32.651Z"
+  },
+  {
+    "id": "e0c5f569-3bfe-4a82-aafe-53f577d596f7",
+    "level": 60,
+    "requiredXp": 198250,
+    "xpToNextLevel": 9760,
+    "createdAt": "2024-09-23T13:50:33.175Z",
+    "updatedAt": "2024-09-23T13:50:33.175Z"
+  },
+  {
+    "id": "7b6cca4b-54af-45c1-8d04-ae6a04d2fedb",
+    "level": 5,
+    "requiredXp": 250,
+    "xpToNextLevel": 135,
+    "createdAt": "2024-09-23T13:50:28.920Z",
+    "updatedAt": "2024-09-23T14:31:41.818Z"
+  },
+  {
+    "id": "36668e45-762e-4f99-981b-730660ff814b",
+    "level": 97,
+    "requiredXp": 808010,
+    "xpToNextLevel": 24745,
+    "createdAt": "2024-09-23T13:50:35.717Z",
+    "updatedAt": "2024-09-23T13:50:35.717Z"
+  },
+  {
+    "id": "449bbd5e-5c99-4eb8-803e-a4373cd620f1",
+    "level": 17,
+    "requiredXp": 5610,
+    "xpToNextLevel": 945,
+    "createdAt": "2024-09-23T13:50:29.873Z",
+    "updatedAt": "2024-09-23T13:50:29.873Z"
+  },
+  {
+    "id": "d4f682f3-1ad1-4bf5-9aac-3a55de3f9766",
+    "level": 6,
+    "requiredXp": 385,
+    "xpToNextLevel": 175,
+    "createdAt": "2024-09-23T13:50:29.021Z",
+    "updatedAt": "2024-09-23T13:58:08.924Z"
+  },
+  {
+    "id": "670afb9a-b7e9-4bf4-b1f9-b366f4eaf15e",
+    "level": 69,
+    "requiredXp": 297850,
+    "xpToNextLevel": 12775,
+    "createdAt": "2024-09-23T13:50:33.785Z",
+    "updatedAt": "2024-09-23T13:50:33.785Z"
+  },
+  {
+    "id": "78d44a5d-1d92-4e27-81bf-50059218331c",
+    "level": 28,
+    "requiredXp": 22330,
+    "xpToNextLevel": 2320,
+    "createdAt": "2024-09-23T13:50:30.651Z",
+    "updatedAt": "2024-09-23T13:50:30.651Z"
+  },
+  {
+    "id": "d8360913-64eb-41f4-a13f-362b7925018a",
+    "level": 32,
+    "requiredXp": 32560,
+    "xpToNextLevel": 2970,
+    "createdAt": "2024-09-23T13:50:30.958Z",
+    "updatedAt": "2024-09-23T13:50:30.958Z"
+  },
+  {
+    "id": "675e037f-362f-4991-b34c-99bd743134d9",
+    "level": 86,
+    "requiredXp": 567385,
+    "xpToNextLevel": 19575,
+    "createdAt": "2024-09-23T13:50:34.969Z",
+    "updatedAt": "2024-09-23T13:50:34.969Z"
+  },
+  {
+    "id": "46d48094-cc1c-4afa-9562-a6082adc9a63",
+    "level": 25,
+    "requiredXp": 16250,
+    "xpToNextLevel": 1885,
+    "createdAt": "2024-09-23T13:50:30.460Z",
+    "updatedAt": "2024-09-23T14:32:02.963Z"
+  },
+  {
+    "id": "fd9ef02e-c08d-4f66-b62f-d23cf1105637",
+    "level": 87,
+    "requiredXp": 586960,
+    "xpToNextLevel": 20020,
+    "createdAt": "2024-09-23T13:50:35.038Z",
+    "updatedAt": "2024-09-23T13:50:35.038Z"
+  },
+  {
+    "id": "6660e7cb-a8a6-487e-ba03-e82b22a3bcc5",
+    "level": 85,
+    "requiredXp": 548250,
+    "xpToNextLevel": 19135,
+    "createdAt": "2024-09-23T13:50:34.902Z",
+    "updatedAt": "2024-09-23T13:50:34.902Z"
+  },
+  {
+    "id": "a1c7a343-2773-49d3-9d7f-9523d48d6529",
+    "level": 74,
+    "requiredXp": 365375,
+    "xpToNextLevel": 14625,
+    "createdAt": "2024-09-23T13:50:34.095Z",
+    "updatedAt": "2024-09-23T13:50:34.095Z"
+  },
+  {
+    "id": "46fdcff6-1a0c-4b7c-82d2-27e7ac7c2937",
+    "level": 29,
+    "requiredXp": 24650,
+    "xpToNextLevel": 2475,
+    "createdAt": "2024-09-23T13:50:30.744Z",
+    "updatedAt": "2024-09-23T13:50:30.744Z"
+  },
+  {
+    "id": "d9a9e16f-93c2-48e2-850a-f7221e129f60",
+    "level": 88,
+    "requiredXp": 606980,
+    "xpToNextLevel": 20470,
+    "createdAt": "2024-09-23T13:50:35.117Z",
+    "updatedAt": "2024-09-23T13:50:35.117Z"
+  },
+  {
+    "id": "b952a5b1-a7ce-430f-b688-265b035719af",
+    "level": 75,
+    "requiredXp": 380000,
+    "xpToNextLevel": 15010,
+    "createdAt": "2024-09-23T13:50:34.170Z",
+    "updatedAt": "2024-09-23T13:50:34.170Z"
+  },
+  {
+    "id": "99153db7-0554-4d21-8e23-a5635c540899",
+    "level": 54,
+    "requiredXp": 146025,
+    "xpToNextLevel": 7975,
+    "createdAt": "2024-09-23T13:50:32.713Z",
+    "updatedAt": "2024-09-23T13:50:32.713Z"
+  },
+  {
+    "id": "1e165bcf-d98c-4118-9c1e-6723a7d7017b",
+    "level": 22,
+    "requiredXp": 11385,
+    "xpToNextLevel": 1495,
+    "createdAt": "2024-09-23T13:50:30.220Z",
+    "updatedAt": "2024-09-23T13:50:30.220Z"
+  },
+  {
+    "id": "3058e42a-2609-45be-9032-c473822af469",
+    "level": 56,
+    "requiredXp": 162260,
+    "xpToNextLevel": 8550,
+    "createdAt": "2024-09-23T13:50:32.877Z",
+    "updatedAt": "2024-09-23T13:50:32.877Z"
+  },
+  {
+    "id": "9b769a92-1dcb-4c6d-99ca-611778b54fbb",
+    "level": 64,
+    "requiredXp": 239200,
+    "xpToNextLevel": 11050,
+    "createdAt": "2024-09-23T13:50:33.452Z",
+    "updatedAt": "2024-09-23T13:50:33.452Z"
+  },
+  {
+    "id": "e3168c6b-0bb3-40b9-9ece-cacd15762baf",
+    "level": 93,
+    "requiredXp": 713930,
+    "xpToNextLevel": 22795,
+    "createdAt": "2024-09-23T13:50:35.442Z",
+    "updatedAt": "2024-09-23T13:50:35.442Z"
+  },
+  {
+    "id": "6d2f35f4-2790-4813-a1b2-145efb0dc4ec",
+    "level": 78,
+    "requiredXp": 426205,
+    "xpToNextLevel": 16195,
+    "createdAt": "2024-09-23T13:50:34.394Z",
+    "updatedAt": "2024-09-23T13:50:34.394Z"
+  },
+  {
+    "id": "b1316764-c722-4ddc-a810-1625df1e2f22",
+    "level": 48,
+    "requiredXp": 103880,
+    "xpToNextLevel": 6370,
+    "createdAt": "2024-09-23T13:50:32.315Z",
+    "updatedAt": "2024-09-23T13:50:32.315Z"
+  },
+  {
+    "id": "cf0349a8-3537-4867-a29c-98634124277c",
+    "level": 90,
+    "requiredXp": 648375,
+    "xpToNextLevel": 21385,
+    "createdAt": "2024-09-23T13:50:35.250Z",
+    "updatedAt": "2024-09-23T13:50:35.250Z"
+  },
+  {
+    "id": "49630cc6-99fb-42d2-84ef-8b101259b158",
+    "level": 4,
+    "requiredXp": 150,
+    "xpToNextLevel": 100,
+    "createdAt": "2024-09-23T13:50:28.834Z",
+    "updatedAt": "2024-09-23T13:57:43.356Z"
+  },
+  {
+    "id": "c78e207a-57a7-46bb-8697-002f2f5f73a4",
+    "level": 61,
+    "requiredXp": 208010,
+    "xpToNextLevel": 10075,
+    "createdAt": "2024-09-23T13:50:33.242Z",
+    "updatedAt": "2024-09-23T13:50:33.242Z"
+  },
+  {
+    "id": "6d729119-c4be-46a8-998a-8bb2db6dcd45",
+    "level": 12,
+    "requiredXp": 2210,
+    "xpToNextLevel": 520,
+    "createdAt": "2024-09-23T13:50:29.484Z",
+    "updatedAt": "2024-09-23T13:50:29.484Z"
+  },
+  {
+    "id": "d5c92834-dbe5-474c-9520-4e94d6e768ff",
+    "level": 50,
+    "requiredXp": 116875,
+    "xpToNextLevel": 6885,
+    "createdAt": "2024-09-23T13:50:32.463Z",
+    "updatedAt": "2024-09-23T14:32:30.211Z"
+  },
+  {
+    "id": "24e1c99e-0527-43dd-a0cc-04e9a6f0484f",
+    "level": 71,
+    "requiredXp": 323760,
+    "xpToNextLevel": 13500,
+    "createdAt": "2024-09-23T13:50:33.909Z",
+    "updatedAt": "2024-09-23T13:50:33.909Z"
+  },
+  {
+    "id": "d80662c1-9963-482c-80b7-1ea6224e703c",
+    "level": 57,
+    "requiredXp": 170810,
+    "xpToNextLevel": 8845,
+    "createdAt": "2024-09-23T13:50:32.960Z",
+    "updatedAt": "2024-09-23T13:50:32.960Z"
+  },
+  {
+    "id": "b96cd83f-26e2-4e13-8dc8-deefb8a921ea",
+    "level": 77,
+    "requiredXp": 410410,
+    "xpToNextLevel": 15795,
+    "createdAt": "2024-09-23T13:50:34.308Z",
+    "updatedAt": "2024-09-23T13:50:34.308Z"
+  },
+  {
+    "id": "12cdac9f-75b6-423d-a10c-10fd38e1f66c",
+    "level": 79,
+    "requiredXp": 442400,
+    "xpToNextLevel": 16600,
+    "createdAt": "2024-09-23T13:50:34.463Z",
+    "updatedAt": "2024-09-23T13:50:34.463Z"
+  },
+  {
+    "id": "00416058-1297-480e-9cca-d2ea6c4f125d",
+    "level": 70,
+    "requiredXp": 310625,
+    "xpToNextLevel": 13135,
+    "createdAt": "2024-09-23T13:50:33.848Z",
+    "updatedAt": "2024-09-23T13:50:33.848Z"
+  },
+  {
+    "id": "c2d7320a-0c49-4c76-9209-31dcc9093b76",
+    "level": 27,
+    "requiredXp": 20160,
+    "xpToNextLevel": 2170,
+    "createdAt": "2024-09-23T13:50:30.588Z",
+    "updatedAt": "2024-09-23T13:50:30.588Z"
+  },
+  {
+    "id": "eeff33c9-fbba-4784-9074-e8ae3ea6a2d3",
+    "level": 41,
+    "requiredXp": 66010,
+    "xpToNextLevel": 4725,
+    "createdAt": "2024-09-23T13:50:31.716Z",
+    "updatedAt": "2024-09-23T13:50:31.716Z"
+  },
+  {
+    "id": "3e7cc3c7-4ea2-43b3-a534-149394f642ec",
+    "level": 92,
+    "requiredXp": 691610,
+    "xpToNextLevel": 22320,
+    "createdAt": "2024-09-23T13:50:35.382Z",
+    "updatedAt": "2024-09-23T13:50:35.382Z"
+  },
+  {
+    "id": "aa7794cd-b818-4a15-a810-43ba7bbc94ee",
+    "level": 67,
+    "requiredXp": 273360,
+    "xpToNextLevel": 12070,
+    "createdAt": "2024-09-23T13:50:33.658Z",
+    "updatedAt": "2024-09-23T13:50:33.658Z"
+  },
+  {
+    "id": "f76b4878-278d-48c3-a842-95c09a7a87d8",
+    "level": 84,
+    "requiredXp": 529550,
+    "xpToNextLevel": 18700,
+    "createdAt": "2024-09-23T13:50:34.816Z",
+    "updatedAt": "2024-09-23T13:50:34.816Z"
+  },
+  {
+    "id": "c851ee6c-64d2-45d0-9385-c262df207501",
+    "level": 1,
+    "requiredXp": 10,
+    "xpToNextLevel": 25,
+    "createdAt": "2024-09-23T13:50:28.560Z",
+    "updatedAt": "2024-09-23T14:31:08.780Z"
+  },
+  {
+    "id": "169d6cbc-5577-4d1f-a327-904c1f38025d",
+    "level": 100,
+    "requiredXp": 1000000,
+    "xpToNextLevel": 1000000000,
+    "createdAt": "2024-09-23T13:50:35.931Z",
+    "updatedAt": "2024-09-23T13:56:35.925Z"
+  },
+  {
+    "id": "00d46562-ad12-4f52-a5e3-b3112849c8a8",
+    "level": 99,
+    "requiredXp": 858000,
+    "xpToNextLevel": 142000,
+    "createdAt": "2024-09-23T13:50:35.845Z",
+    "updatedAt": "2024-09-23T13:56:08.953Z"
+  },
+  {
+    "id": "e394901d-1ce5-40a8-b583-16af5b02f2a4",
+    "level": 34,
+    "requiredXp": 38675,
+    "xpToNextLevel": 3325,
+    "createdAt": "2024-09-23T13:50:31.109Z",
+    "updatedAt": "2024-09-23T13:50:31.109Z"
+  },
+  {
+    "id": "952a57f7-32e6-478a-99f1-9b32b41b4447",
+    "level": 62,
+    "requiredXp": 218085,
+    "xpToNextLevel": 10395,
+    "createdAt": "2024-09-23T13:50:33.308Z",
+    "updatedAt": "2024-09-23T13:50:33.308Z"
+  },
+  {
+    "id": "45b6bd87-27f4-4fe7-9869-ee090f4455ff",
+    "level": 8,
+    "requiredXp": 780,
+    "xpToNextLevel": 270,
+    "createdAt": "2024-09-23T13:50:29.178Z",
+    "updatedAt": "2024-09-23T13:58:15.289Z"
+  },
+  {
+    "id": "11019baf-e5e3-445d-9da2-0e707776602a",
+    "level": 44,
+    "requiredXp": 80850,
+    "xpToNextLevel": 5400,
+    "createdAt": "2024-09-23T13:50:32.037Z",
+    "updatedAt": "2024-09-23T13:50:32.037Z"
+  },
+  {
+    "id": "d9964af0-1e16-4338-97d9-dc6a7c4c81ba",
+    "level": 73,
+    "requiredXp": 351130,
+    "xpToNextLevel": 14245,
+    "createdAt": "2024-09-23T13:50:34.030Z",
+    "updatedAt": "2024-09-23T13:50:34.030Z"
+  },
+  {
+    "id": "aa6a3261-a078-4bf1-bda2-69bdb6efb1c2",
+    "level": 76,
+    "requiredXp": 395010,
+    "xpToNextLevel": 15400,
+    "createdAt": "2024-09-23T13:50:34.244Z",
+    "updatedAt": "2024-09-23T13:50:34.244Z"
+  },
+  {
+    "id": "f1c51eeb-a9d5-40f8-b742-fe51ada7a684",
+    "level": 40,
+    "requiredXp": 61500,
+    "xpToNextLevel": 4510,
+    "createdAt": "2024-09-23T13:50:31.652Z",
+    "updatedAt": "2024-09-23T13:50:31.652Z"
+  },
+  {
+    "id": "64e83931-bfac-4562-9269-13f77b7561ff",
+    "level": 55,
+    "requiredXp": 154000,
+    "xpToNextLevel": 8260,
+    "createdAt": "2024-09-23T13:50:32.772Z",
+    "updatedAt": "2024-09-23T13:50:32.772Z"
+  },
+  {
+    "id": "1a315dbc-2eb8-40d3-9b50-08b4161b0953",
+    "level": 45,
+    "requiredXp": 86250,
+    "xpToNextLevel": 5635,
+    "createdAt": "2024-09-23T13:50:32.105Z",
+    "updatedAt": "2024-09-23T13:50:32.105Z"
+  },
+  {
+    "id": "6792b8c1-e50c-4e5e-8de9-3c206a12ec7b",
+    "level": 59,
+    "requiredXp": 188800,
+    "xpToNextLevel": 9450,
+    "createdAt": "2024-09-23T13:50:33.113Z",
+    "updatedAt": "2024-09-23T13:50:33.113Z"
+  },
+  {
+    "id": "a90be5fc-c3ae-4f6c-b258-bbe2d29c87f3",
+    "level": 89,
+    "requiredXp": 627450,
+    "xpToNextLevel": 20925,
+    "createdAt": "2024-09-23T13:50:35.186Z",
+    "updatedAt": "2024-09-23T13:50:35.186Z"
+  },
+  {
+    "id": "3abd7113-ede0-4564-b983-a845843c79aa",
+    "level": 98,
+    "requiredXp": 832755,
+    "xpToNextLevel": 25245,
+    "createdAt": "2024-09-23T13:50:35.779Z",
+    "updatedAt": "2024-09-23T13:50:35.779Z"
+  },
+  {
+    "id": "70d01990-dec3-44d6-b911-a5b78a869ef3",
+    "level": 66,
+    "requiredXp": 261635,
+    "xpToNextLevel": 11725,
+    "createdAt": "2024-09-23T13:50:33.593Z",
+    "updatedAt": "2024-09-23T13:50:33.593Z"
+  },
+  {
+    "id": "0c6b8bf1-3d51-40df-a363-f93bbcd47e76",
+    "level": 83,
+    "requiredXp": 511280,
+    "xpToNextLevel": 18270,
+    "createdAt": "2024-09-23T13:50:34.734Z",
+    "updatedAt": "2024-09-23T13:50:34.734Z"
+  },
+  {
+    "id": "a22cda66-567d-4486-8fb9-1871d80b1f17",
+    "level": 24,
+    "requiredXp": 14500,
+    "xpToNextLevel": 1750,
+    "createdAt": "2024-09-23T13:50:30.372Z",
+    "updatedAt": "2024-09-23T13:50:30.372Z"
+  },
+  {
+    "id": "dd349dd1-7c61-480e-9f78-8da88c51eae6",
+    "level": 7,
+    "requiredXp": 560,
+    "xpToNextLevel": 220,
+    "createdAt": "2024-09-23T13:50:29.089Z",
+    "updatedAt": "2024-09-23T13:50:29.089Z"
+  },
+  {
+    "id": "6d66c3c7-684b-4c98-9a1b-604bc36292f8",
+    "level": 65,
+    "requiredXp": 250250,
+    "xpToNextLevel": 11385,
+    "createdAt": "2024-09-23T13:50:33.514Z",
+    "updatedAt": "2024-09-23T13:50:33.514Z"
+  },
+  {
+    "id": "3ddd8194-75e1-403c-a731-69f48a44b0a8",
+    "level": 82,
+    "requiredXp": 493435,
+    "xpToNextLevel": 17845,
+    "createdAt": "2024-09-23T13:50:34.670Z",
+    "updatedAt": "2024-09-23T13:50:34.670Z"
+  },
+  {
+    "id": "52142fdb-08f3-4820-8e8b-339bcc00beef",
+    "level": 11,
+    "requiredXp": 1760,
+    "xpToNextLevel": 450,
+    "createdAt": "2024-09-23T13:50:29.409Z",
+    "updatedAt": "2024-09-23T13:50:29.409Z"
+  },
+  {
+    "id": "05542868-c4fd-45d7-97e5-ad1932918e74",
+    "level": 23,
+    "requiredXp": 12880,
+    "xpToNextLevel": 1620,
+    "createdAt": "2024-09-23T13:50:30.306Z",
+    "updatedAt": "2024-09-23T13:50:30.306Z"
+  },
+  {
+    "id": "7de4c1c5-0f8d-4dc6-9116-f9bcdb576667",
+    "level": 26,
+    "requiredXp": 18135,
+    "xpToNextLevel": 2025,
+    "createdAt": "2024-09-23T13:50:30.525Z",
+    "updatedAt": "2024-09-23T13:50:30.525Z"
+  }
+]
