@@ -1,11 +1,11 @@
 import type { Schema } from '../amplify/data/resource';
 import { generateClient } from 'aws-amplify/data';
+import { Grid2, Box } from '@mui/material';
+import QuestTable from './components/QuestTable';
 import PlayerTable from './components/PlayerTable';
 import LevelTable from './components/LevelTable';
-import Grid from '@mui/material/Grid2';
-import { Box } from '@mui/material';
+import PermanentDrawerLeft from './components/drawer/PermanentDrawerLeft';
 import './App.css';
-import QuestTable from './components/QuestTable';
 
 const client = generateClient<Schema>();
 
@@ -66,20 +66,23 @@ function App() {
 
   return (
     <main>
-      <Box sx={{ flexGrow: 1 }}>
-        <Grid container spacing={2}>
-          <Grid size={6}>
-            <h1>NOW HERES DA SCORES</h1>
-            <PlayerTable client={client} />
-          </Grid>
-          <Grid size={6}>
-            <h1>HERES DA THANG</h1>
-            <LevelTable client={client} />
-          </Grid>
-          <Grid spacing={12} sx={{ width: '100%' }}>
-            <QuestTable client={client} />
-          </Grid>
-        </Grid>
+      <Box sx={{ display: 'flex' }}>
+        <PermanentDrawerLeft />
+        <Box component="main" sx={{ flexGrow: 1, p: 1 }}>
+          <Grid2 container spacing={2}>
+            <Grid2 size={6}>
+              <h1>NOW HERES DA SCORES</h1>
+              <PlayerTable client={client} />
+            </Grid2>
+            <Grid2 size={6}>
+              <h1>HERES DA THANG</h1>
+              <LevelTable client={client} />
+            </Grid2>
+            <Grid2 spacing={12} sx={{ width: '100%' }}>
+              <QuestTable client={client} />
+            </Grid2>
+          </Grid2>
+        </Box>
       </Box>
     </main>
   );
