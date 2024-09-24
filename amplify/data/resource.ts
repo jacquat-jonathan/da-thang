@@ -49,6 +49,7 @@ const schema = a
     }),
     Quest: a
       .model({
+        title: a.string(),
         description: a.string().required(),
         xp: a.integer().default(0).required(),
         karma: a.integer().default(0).required(),
