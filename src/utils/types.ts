@@ -34,10 +34,3 @@ export type Data = {
   players: Array<Player>;
   quests: Array<Quest>;
 };
-
-export enum Icons {
-  HOME,
-  GROUP,
-  LIST,
-  ARROW,
-}

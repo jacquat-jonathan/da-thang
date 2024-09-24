@@ -1,13 +1,13 @@
 // import type { Schema } from '../amplify/data/resource';
 // import { generateClient } from 'aws-amplify/data';
-import { Grid2, Box } from '@mui/material';
-import QuestTable from './components/quests/QuestTable';
-import PlayerTable from './components/players/PlayerTable';
-import LevelTable from './components/levels/LevelTable';
-import PermanentDrawerLeft from './components/drawer/PermanentDrawerLeft';
 import './App.css';
 import readJson from './utils/readJson';
 import { Level, Player, Quest, Advantage, Data } from './utils/types';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import HomePage from './pages/homePage';
+import PlayersPage from './pages/playersPage';
+import LevelsPage from './pages/levelsPage';
+import QuestsPage from './pages/questsPage';
 
 // const client = generateClient<Schema>();
 
@@ -73,26 +73,48 @@ function App() {
   const quests: Array<Quest> = data.quests;
   return (
     <main>
-      <Box sx={{ display: 'flex' }}>
-        <PermanentDrawerLeft />
-        <Box component="main" sx={{ flexGrow: 1, p: 1 }}>
-          <Grid2 container spacing={2}>
-            <Grid2 size={6}>
-              <h1>NOW HERES DA SCORES</h1>
-              <PlayerTable players={players} levels={levels} />
-            </Grid2>
-            <Grid2 size={6}>
-              <h1>HERES DA THANG</h1>
-              <LevelTable levels={levels} advantages={advantages} />
-            </Grid2>
-            <Grid2 spacing={12} sx={{ width: '100%' }}>
-              <QuestTable quests={quests} />
-            </Grid2>
-          </Grid2>
-        </Box>
-      </Box>
+      <>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<HomePage />}></Route>
+            <Route
+              path="/players"
+              element={<PlayersPage players={players} levels={levels} />}
+            ></Route>
+            <Route
+              path="/levels"
+              element={<LevelsPage levels={levels} advantages={advantages} />}
+            ></Route>
+            <Route
+              path="/quests"
+              element={<QuestsPage quests={quests} />}
+            ></Route>
+          </Routes>
+        </BrowserRouter>
+      </>
     </main>
   );
 }
 
 export default App;
+
+/*
+<Box sx={{ display: 'flex' }}>
+  <PermanentDrawerLeft />
+  <Box component="main" sx={{ flexGrow: 1, p: 1 }}>
+    <Grid2 container spacing={2}>
+      <Grid2 size={6}>
+        <h1>NOW HERES DA SCORES</h1>
+        <PlayerTable players={players} levels={levels} />
+      </Grid2>
+      <Grid2 size={6}>
+        <h1>HERES DA THANG</h1>
+        <LevelTable levels={levels} advantages={advantages} />
+      </Grid2>
+      <Grid2 spacing={12} sx={{ width: '100%' }}>
+        <QuestTable quests={quests} />
+      </Grid2>
+    </Grid2>
+  </Box>
+</Box>
+*/

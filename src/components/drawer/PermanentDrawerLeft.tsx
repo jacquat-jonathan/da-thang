@@ -1,10 +1,24 @@
-import { Box, Drawer, List } from '@mui/material';
-import DrawerItem from './DrawerItem';
-import { Icons } from '../../utils/types';
+import {
+  Box,
+  Drawer,
+  List,
+  ListItem,
+  ListItemButton,
+  ListItemIcon,
+  ListItemText,
+} from '@mui/material';
+import {
+  HomeOutlined,
+  PeopleAltOutlined,
+  KeyboardDoubleArrowUpOutlined,
+  FormatListNumberedOutlined,
+} from '@mui/icons-material';
+import { useNavigate } from 'react-router-dom';
 
 const drawerWidth = 180;
 
 const PermanentDrawerLeft = () => {
+  const navigate = useNavigate();
   return (
     <Drawer
       sx={{
@@ -17,10 +31,38 @@ const PermanentDrawerLeft = () => {
     >
       <Box sx={{ width: drawerWidth }}>
         <List>
-          <DrawerItem text={'Home'} icon={Icons.HOME} />
-          <DrawerItem text={'Players'} icon={Icons.GROUP} />
-          <DrawerItem text={'Quests'} icon={Icons.LIST} />
-          <DrawerItem text={'Levels'} icon={Icons.ARROW} />
+          <ListItem key={'Home'} disablePadding>
+            <ListItemButton onClick={() => navigate('/')}>
+              <ListItemText primary={'Home'} />
+              <ListItemIcon>
+                <HomeOutlined fontSize="large" />
+              </ListItemIcon>
+            </ListItemButton>
+          </ListItem>
+          <ListItem key={'Players'} disablePadding>
+            <ListItemButton onClick={() => navigate('/players')}>
+              <ListItemText primary={'Players'} />
+              <ListItemIcon>
+                <PeopleAltOutlined fontSize="large" />
+              </ListItemIcon>
+            </ListItemButton>
+          </ListItem>
+          <ListItem key={'Quests'} disablePadding>
+            <ListItemButton onClick={() => navigate('/quests')}>
+              <ListItemText primary={'Quests'} />
+              <ListItemIcon>
+                <FormatListNumberedOutlined fontSize="large" />
+              </ListItemIcon>
+            </ListItemButton>
+          </ListItem>
+          <ListItem key={'Levels'} disablePadding>
+            <ListItemButton onClick={() => navigate('/levels')}>
+              <ListItemText primary={'Levels'} />
+              <ListItemIcon>
+                <KeyboardDoubleArrowUpOutlined fontSize="large" />
+              </ListItemIcon>
+            </ListItemButton>
+          </ListItem>
         </List>
       </Box>
     </Drawer>
