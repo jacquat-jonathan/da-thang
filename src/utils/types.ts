@@ -26,6 +26,7 @@ export type Quest = {
   xp: number;
   karma: number;
   isEditable: boolean;
+  title: string;
 };
 
 export type Data = {

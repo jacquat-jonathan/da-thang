@@ -1,7 +1,5 @@
-import type { Schema } from '../../../amplify/data/resource';
 import { Card, CardContent, Typography } from '@mui/material';
-
-type Quest = Schema['Quest']['type'];
+import { Quest } from '../../utils/types';
 
 type QuestTileProps = {
   quest: Quest;

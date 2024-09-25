@@ -21,7 +21,7 @@ const PlayerTile: React.FC<PlayerTileProps> = ({ player, level, place }) => {
       : 0;
   };
 
-  const gradientEase = 7;
+  const gradientEase = 1;
 
   const getGradient = () => {
     if (progressPercentage() === 0) {

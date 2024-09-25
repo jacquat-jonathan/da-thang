@@ -2,43 +2,7 @@ import advantagesJson from './advantages.json';
 import levelsJson from './levels.json';
 import playersJson from './players.json';
 import questsJson from './quests.json';
-
-type Advantage = {
-  id: string;
-  description: string;
-  levelId: string;
-};
-
-type Level = {
-  id: string;
-  level: number;
-  requiredXp: number;
-  xpToNextLevel: number;
-};
-
-type Player = {
-  id: string;
-  name: string;
-  username: string;
-  xp: number;
-  karma: number;
-  levelId: string;
-};
-
-type Quest = {
-  id: string;
-  description: string;
-  xp: number;
-  karma: number;
-  isEditable: boolean;
-};
-
-type Data = {
-  advantages: Array<Advantage>;
-  levels: Array<Level>;
-  players: Array<Player>;
-  quests: Array<Quest>;
-};
+import { Advantage, Data, Level, Player, Quest } from './types';
 
 const readAdvantages = () => {
   return advantagesJson.map((advantage) => {
@@ -82,6 +46,7 @@ const readQuests = () => {
       xp: quest.xp,
       karma: quest.karma,
       isEditable: quest.isEditable,
+      title: quest.title,
     } as Quest;
   });
 };
