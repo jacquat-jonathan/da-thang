@@ -29,7 +29,7 @@ const PlayerList: React.FC<PlayerListProps> = ({
 
   return (
     <div>
-      <h1>NOW HERES DA SCORES</h1>
+      <h1>HERES DA SCORES</h1>
       {players.map((player, index) => (
         <PlayerTile
           key={player.id}
