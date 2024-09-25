@@ -8,6 +8,7 @@ import HomePage from './pages/homePage';
 import PlayersPage from './pages/playersPage';
 import LevelsPage from './pages/levelsPage';
 import QuestsPage from './pages/questsPage';
+import LogsPage from './pages/logsPage';
 
 // const client = generateClient<Schema>();
 
@@ -89,6 +90,7 @@ function App() {
               path="/quests"
               element={<QuestsPage quests={quests} />}
             ></Route>
+            <Route path="/logs" element={<LogsPage />}></Route>
           </Routes>
         </BrowserRouter>
       </>

@@ -9,9 +9,10 @@ import {
 } from '@mui/material';
 import {
   HomeOutlined,
-  PeopleAltOutlined,
+  CheckBoxOutlined,
   KeyboardDoubleArrowUpOutlined,
   FormatListNumberedOutlined,
+  EngineeringOutlined,
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 
@@ -43,7 +44,7 @@ const PermanentDrawerLeft = () => {
             <ListItemButton onClick={() => navigate('/players')}>
               <ListItemText primary={'Classement'} />
               <ListItemIcon>
-                <PeopleAltOutlined fontSize="large" />
+                <FormatListNumberedOutlined fontSize="large" />
               </ListItemIcon>
             </ListItemButton>
           </ListItem>
@@ -51,7 +52,7 @@ const PermanentDrawerLeft = () => {
             <ListItemButton onClick={() => navigate('/quests')}>
               <ListItemText primary={'Quests'} />
               <ListItemIcon>
-                <FormatListNumberedOutlined fontSize="large" />
+                <CheckBoxOutlined fontSize="large" />
               </ListItemIcon>
             </ListItemButton>
           </ListItem>
@@ -60,6 +61,14 @@ const PermanentDrawerLeft = () => {
               <ListItemText primary={'Levels'} />
               <ListItemIcon>
                 <KeyboardDoubleArrowUpOutlined fontSize="large" />
+              </ListItemIcon>
+            </ListItemButton>
+          </ListItem>
+          <ListItem key={'Logs'} disablePadding>
+            <ListItemButton onClick={() => navigate('/logs')}>
+              <ListItemText primary={'Logs'} />
+              <ListItemIcon>
+                <EngineeringOutlined fontSize="large" />
               </ListItemIcon>
             </ListItemButton>
           </ListItem>
