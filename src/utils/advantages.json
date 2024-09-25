@@ -15,7 +15,7 @@
   },
   {
     "id": "d793700b-9c36-4192-9d61-1eafc9429927",
-    "description": "Vous pouvez désormais désigner les joueurs de niveau inférieur au votre par \"noob",
+    "description": "Vous pouvez désormais désigner les joueurs de niveau inférieur au votre par \"noob\"",
     "levelId": "c851ee6c-64d2-45d0-9385-c262df207501",
     "createdAt": "2024-09-19T08:31:20.189Z",
     "updatedAt": "2024-09-23T14:31:08.982Z"
@@ -29,7 +29,7 @@
   },
   {
     "id": "c373139e-fa54-43f1-a933-f6cfb515b449",
-    "description": "Compétence : Dab vertueux, accomplir une quête en dabant donne un bonus de 10xp",
+    "description": "Dab vertueux: accomplir une quête en dabant donne un bonus de 10xp",
     "levelId": "5fcef764-92f9-4511-ba29-c68e026fb441",
     "createdAt": "2024-09-19T08:32:24.880Z",
     "updatedAt": "2024-09-23T14:31:33.070Z"

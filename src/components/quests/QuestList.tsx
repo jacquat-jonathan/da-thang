@@ -26,7 +26,7 @@ const QuestList: React.FC<QuestListProps> = ({ quests: qs }) => {
     <div>
       <h1>HERES DA QUESTS</h1>
       {quests.map((quest: Quest) => (
-        <QuestTile quest={quest} />
+        <QuestTile key={quest.id} quest={quest} />
       ))}
     </div>
   );
