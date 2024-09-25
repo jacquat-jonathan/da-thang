@@ -13,7 +13,7 @@ const LevelsPage: React.FC<LevelsPageProps> = ({ levels, advantages }) => {
     <Box sx={{ display: 'flex' }}>
       <PermanentDrawerLeft />
       <Box component="main" sx={{ flexGrow: 1, p: 1 }}>
-        <Grid2 spacing={12} sx={{ width: '100%' }}>
+        <Grid2 size={12} sx={{ width: '100%' }}>
           <LevelList levels={levels} advantages={advantages} />
         </Grid2>
       </Box>
