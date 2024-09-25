@@ -15,7 +15,7 @@ import {
 } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 
-const drawerWidth = 180;
+const drawerWidth = '13rem';
 
 const PermanentDrawerLeft = () => {
   const navigate = useNavigate();
@@ -41,7 +41,7 @@ const PermanentDrawerLeft = () => {
           </ListItem>
           <ListItem key={'Players'} disablePadding>
             <ListItemButton onClick={() => navigate('/players')}>
-              <ListItemText primary={'Players'} />
+              <ListItemText primary={'Classement'} />
               <ListItemIcon>
                 <PeopleAltOutlined fontSize="large" />
               </ListItemIcon>
