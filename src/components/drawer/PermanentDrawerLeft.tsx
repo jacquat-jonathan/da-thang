@@ -50,7 +50,7 @@ const PermanentDrawerLeft = () => {
           </ListItem>
           <ListItem key={'Quests'} disablePadding>
             <ListItemButton onClick={() => navigate('/quests')}>
-              <ListItemText primary={'Quests'} />
+              <ListItemText primary={'Quêtes'} />
               <ListItemIcon>
                 <CheckBoxOutlined fontSize="large" />
               </ListItemIcon>
@@ -58,7 +58,7 @@ const PermanentDrawerLeft = () => {
           </ListItem>
           <ListItem key={'Levels'} disablePadding>
             <ListItemButton onClick={() => navigate('/levels')}>
-              <ListItemText primary={'Levels'} />
+              <ListItemText primary={'Niveaux'} />
               <ListItemIcon>
                 <KeyboardDoubleArrowUpOutlined fontSize="large" />
               </ListItemIcon>
