@@ -17,26 +17,29 @@ type PlayerTileProps = {
 const PlayerTile: React.FC<PlayerTileProps> = ({ player, level, place }) => {
   const progressPercentage = () => {
     return level
-      ? (player.xp / (level.requiredXp + level.xpToNextLevel)) * 100
+      ? ((player.xp - level.requiredXp) / +level.xpToNextLevel) * 100
       : 0;
   };
 
   const gradientEase = 7;
 
   const getGradient = () => {
+    if (progressPercentage() === 0) {
+      return 'background: #FFFFFF';
+    }
     if (progressPercentage() < 100 - gradientEase) {
-      return `linear-gradient(90deg, #A6D8D4 ${progressPercentage()}%, #ffffff ${
+      return `linear-gradient(90deg, #A6D8D4 ${progressPercentage()}%, #FFFFFF ${
         progressPercentage() + gradientEase
       }%, rgba(255,255,255) 100%)`;
     }
-    return `linear-gradient(90deg, #A6D8D4 ${progressPercentage()}%, rgba(255,255,255) 100%)`;
+    return `linear-gradient(90deg, #A6D8D4 ${progressPercentage()}%, #FFFFFF 100%)`;
   };
 
   const getMissingXp = () => {
     if (level) {
-      return level.requiredXp + level.xpToNextLevel - player.xp;
+      return `${player.xp - level.requiredXp} / ${level.xpToNextLevel}`;
     }
-    return 0;
+    return '-1';
   };
 
   return (
